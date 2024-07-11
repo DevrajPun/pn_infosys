@@ -1,0 +1,102 @@
+import React from "react";
+
+function Footer() {
+  return (
+    <>
+      <section className="footer-content">
+        <div className="main-footer">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-4 text-center">
+                <div className="footer-heading">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/logo%2Fcolorlogo.png?alt=media&token=0386f0aa-e1e1-4950-924f-3eedaa82d967"
+                    style={{width: "100%", height: "100%"}}
+                  />
+                </div>
+                <p className="about-oxana" style={{textAlign: "justify"}}>
+                  PN INFOSYS is a leading global business consulting and IT
+                  service company. We provides a full range of maintenance and
+                  compliance services for Government and Commercial facilities
+                  both large and small. Whether you need to run your business
+                  more efficiently or accelerate revenue growth, PN INFOSYS can
+                  get you there.
+                </p>
+                <ul className="social-icons">
+                  <li>
+                    <a href="https://www.facebook.com/pninfosys/">
+                      <i className="fa fa-facebook" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/company/pninfosys/">
+                      <i className="fa fa-linkedin" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-4 text-center">
+                <div className="footer-heading mr-1">
+                  <h4>Get In Touch!</h4>
+                </div>
+                <ul className="more-info">
+                  <li>
+                    <a href="#">www.pninfosys.com</a>
+                    <br />
+                    <a href>support@pninfosys.com</a>
+                  </li>
+                  <li>
+                    <a> +91 7000846823 </a>
+                    <br />
+                    <a> +91 7415289378</a>
+                  </li>
+                  <li>
+                    <a>
+                      MIG-332
+                      <br /> Darpan Colony,Thatipur,
+                      <br /> Gwalior,Madhya Pradesh
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-4 text-center">
+                <div className="footer-heading">
+                  <h4 id="title">COMPANIES WORKSHOP</h4>
+                </div>
+                <ul className="useful-links" style={{float: "left"}}>
+                  <li style={{color: "white"}}>
+                    <a href="#">Xiaomi MI Company</a>
+                    <br /> August 20 / Mr.Vaibhav Shrivastava
+                  </li>
+                  <li style={{color: "white"}}>
+                    <a href="#">Bentchair Company</a>
+                    <br /> October 06 / Mr.Nicket Bansal
+                  </li>
+                  <li style={{color: "white"}}>
+                    <a href="#">MPCT College Gwalior</a>
+                    <br /> November 02 / PN Infosys Team
+                  </li>
+                  <li style={{color: "white"}}>
+                    <a href="#">RJIT College Tekanpur</a>
+                    <br /> Febuary 24 / PN Infosys Team
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-12">
+                <div className="sub-footer">
+                  <p>
+                    Copyright © 2020{" "}
+                    <a href="#"> | PN INFOSYS IT COMPANY IN GWALIOR ! </a>. All
+                    rights reserved.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
+
+export default Footer;
