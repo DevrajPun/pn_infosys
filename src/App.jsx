@@ -1,9 +1,11 @@
 import React from "react";
 import {Routes, Route} from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Technologies from "./components/Technologies";
-import Portfolio from "./Portfolio";
+import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
 import Events from "./components/Events";
 import Footer from "./components/Footer";
