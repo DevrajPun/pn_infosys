@@ -1,7 +1,4 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import "../assets/style.css";
 
 function Portfolio() {
   return (
@@ -11,8 +8,8 @@ function Portfolio() {
           <div className="row mb-5">
             <div className="col-lg-4">
               <div className="section-heading">
-                <h4 style={{fontSize: "xx-large"}}>Our</h4>
-                <h1 style={{color: "#009df2", fontSize: "xxx-large"}}>
+                <h4 style={{ fontSize: "xx-large" }}>Our</h4>
+                <h1 style={{ color: "#009df2", fontSize: "xxx-large" }}>
                   Portfolio
                 </h1>
               </div>
@@ -84,8 +81,8 @@ function Portfolio() {
                         <a href={item.link}>
                           <i className="fa fa-link" />
                         </a>
-                        <h3 style={{color: "white"}}>{item.title}</h3>
-                        <h5 style={{color: "white"}}>{item.subtitle}</h5>
+                        <h3 style={{ color: "white" }}>{item.title}</h3>
+                        <h5 style={{ color: "white" }}>{item.subtitle}</h5>
                       </div>
                     </div>
                   </div>

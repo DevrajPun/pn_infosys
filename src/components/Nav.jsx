@@ -1,151 +1,208 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import { Link } from "react-router-dom";
 
 function Nav() {
   return (
-    <nav
-      className="navbar navbar-expand-lg navbar-light bg-light"
-      style={{paddingTop: "20px", paddingBottom: "20px"}}>
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          <span style={{fontWeight: "bold", color: "#3399ff"}}>PN</span>
-          <span style={{fontWeight: "bold"}}>INFOSYS</span>
+    <>
+      <nav className="navbar navbar-expand-sm bg-light navbar-light">
+        <a
+          routerlink=""
+          className="navbar-brand"
+          ng-reflect-router-link=""
+          href="#/"
+        >
+          <img src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/logo%2Fcolorlogo.png?alt=media&amp;token=0386f0aa-e1e1-4950-924f-3eedaa82d967" />
         </a>
         <button
-          className="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+          className="navbar-toggler"
+        >
+          <span className="navbar-toggler-icon bg-primary"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav ms-auto">
+        <div id="collapsibleNavbar" className="collapse navbar-collapse">
+          <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link text-dark"
+                ng-reflect-router-link=""
+                href="#/"
+              >
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link text-dark"
+                ng-reflect-router-link="about"
+                href="#/about"
+              >
                 AboutUs
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link text-dark"
+                ng-reflect-router-link="service"
+                href="#/service"
+              >
                 Service
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link text-dark"
+                ng-reflect-router-link="training"
+                href="#/training"
+              >
                 Training
               </a>
             </li>
             <li className="nav-item dropdown">
               <a
-                className="nav-link dropdown-toggle"
-                href="#"
                 id="navbarDropdown"
                 role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Workshop
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                className="nav-link dropdown-toggle text-dark"
+              >
+                {" "}
+                Workshop{" "}
               </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Xiaomi MI Company
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Bentchair Company
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Rjit College
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Mpct College
-                  </a>
-                </li>
-              </ul>
+              <div aria-labelledby="navbarDropdown" className="dropdown-menu">
+                <a
+                  routerlink="Activate"
+                  className="dropdown-item text-center text-dark"
+                  ng-reflect-router-link="/workshop/xiaomi"
+                  href="#/workshop/xiaomi"
+                >
+                  Xiaomi MI Company
+                </a>
+                <div className="dropdown-divider"></div>
+                <a
+                  routerlink="Activate"
+                  className="dropdown-item text-center text-dark"
+                  ng-reflect-router-link="/workshop/bentchair"
+                  href="#/workshop/bentchair"
+                >
+                  Bentchair Company
+                </a>
+                <div className="dropdown-divider"></div>
+                <a
+                  routerlink="Activate"
+                  className="dropdown-item text-center text-dark"
+                  ng-reflect-router-link="/workshop/rjit"
+                  href="#/workshop/rjit"
+                >
+                  Rjit College
+                </a>
+                <div className="dropdown-divider"></div>
+                <a
+                  routerlink="Activate"
+                  className="dropdown-item text-center text-dark"
+                  ng-reflect-router-link="/workshop/mpct"
+                  href="#/workshop/mpct"
+                >
+                  Mpct College
+                </a>
+              </div>
             </li>
             <li className="nav-item dropdown">
               <a
-                className="nav-link dropdown-toggle"
                 href="#"
                 id="navbarDropdown"
                 role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false">
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                className="nav-link dropdown-toggle text-dark"
+              >
                 Events
               </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Student's Birthday
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Aniversary Celebration
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Tour's
-                  </a>
-                </li>
-              </ul>
+              <div aria-labelledby="navbarDropdown" className="dropdown-menu">
+                <a
+                  routerlink="/event/birthday"
+                  className="dropdown-item text-center text-dark"
+                  ng-reflect-router-link="/event/birthday"
+                  href="#/event/birthday"
+                >
+                  Student's Birthday
+                </a>
+                <div className="dropdown-divider"></div>
+                <a
+                  routerlink="/event/aniversary"
+                  className="dropdown-item text-center text-dark"
+                  ng-reflect-router-link="/event/aniversary"
+                  href="#/event/aniversary"
+                >
+                  Aniversary Celebration
+                </a>
+                <div className="dropdown-divider"></div>
+                <a
+                  routerlink="/event/tour"
+                  className="dropdown-item text-center text-dark"
+                  ng-reflect-router-link="/event/tour"
+                  href="#/event/tour"
+                >
+                  Tour's
+                </a>
+              </div>
             </li>
             <li className="nav-item dropdown">
               <a
-                className="nav-link dropdown-toggle"
-                href="#"
                 id="navbarDropdown"
                 role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false">
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                className="nav-link dropdown-toggle text-dark"
+              >
                 Placement
               </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Placement Desk
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Placement Gallery
-                  </a>
-                </li>
-              </ul>
+              <div aria-labelledby="navbarDropdown" className="dropdown-menu">
+                <a
+                  routerlink="/placement"
+                  className="dropdown-item text-center text-dark"
+                  ng-reflect-router-link="/placement"
+                  href="#/placement"
+                >
+                  Placement Desk
+                </a>
+                <div className="dropdown-divider"></div>
+                <a
+                  routerlink="/placement_gallery"
+                  className="dropdown-item text-center text-dark"
+                  ng-reflect-router-link="/placement_gallery"
+                  href="#/placement_gallery"
+                >
+                  Placement Gallery
+                </a>
+              </div>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link text-dark"
+                ng-reflect-router-link="contact"
+                href="#/contact"
+              >
                 ContactUs
               </a>
             </li>
             <li className="nav-item">
               <a
-                className="nav-link"
-                href="http://internship2020.pneducation.website/"
                 target="_blank"
-                rel="noopener noreferrer">
+                href="http://internship2020.pneducation.website/"
+                className="nav-link text-dark"
+              >
                 InternshipRegistration
               </a>
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </>
   );
 }
 

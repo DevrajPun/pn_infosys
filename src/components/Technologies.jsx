@@ -136,7 +136,7 @@ function Technologies() {
                   <div className="case-item">
                     <div className="case-thumb">
                       <img
-                        src="assets/frontend/images/technology/angular.png"
+                        src="https://pninfosys.com/assets/frontend/images/technology/angular.png"
                         alt
                         style={{width: "75%", marginLeft: 39}}
                       />

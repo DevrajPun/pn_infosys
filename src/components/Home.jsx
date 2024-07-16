@@ -4,14 +4,20 @@ function Home() {
   return (
     <>
       {/* section one */}
-      <div className="main-content" style={{background: "grey"}}>
+      <div
+        className="main-content"
+        style={{
+          background:
+            "url('https://pninfosys.com/assets/frontend/images/banner.png')",
+        }}
+      >
         <div className="parallax-banner">
           <div className="inner-header">
             <div className="inner-content">
-              <h4 style={{textShadow: "0px 0px 5px #000000"}}>
+              <h4 style={{ textShadow: "0px 0px 5px #000000" }}>
                 what are you waiting for?
               </h4>
-              <h1 style={{textShadow: "0px 0px 5px #000000"}}>
+              <h1 style={{ textShadow: "0px 0px 5px #000000" }}>
                 Our PN Infosys
                 <br /> We're ready to help you grow!.
               </h1>
@@ -19,7 +25,7 @@ function Home() {
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ebanner%2Fbanner2.png?alt=media&token=ca3ffc74-514c-4d79-9af4-c025e88b89aa"
                   alt
-                  style={{width: "50%"}}
+                  style={{ width: "50%" }}
                 />
               </div>
             </div>
@@ -31,7 +37,8 @@ function Home() {
               viewBox="0 24 150 28"
               preserveAspectRatio="none"
               shapeRendering="auto"
-              className="waves">
+              className="waves"
+            >
               <defs>
                 <path
                   id="gentle-wave"
@@ -64,7 +71,7 @@ function Home() {
         </div>
       </div>
       {/* section two */}
-      <section className="features" style={{marginTop: 45}}>
+      <section className="features" style={{ marginTop: 45 }}>
         <h4 className="lead text-center">
           PN INFOSYS is a leading global business consulting and IT service
           company,
@@ -72,7 +79,7 @@ function Home() {
           Whether you need to run your business more efficiently or accelerate
           revenue growth, PN INFOSYS can get you there.
         </h4>
-        <div className="container-fluid" style={{width: "95%"}}>
+        <div className="container-fluid" style={{ width: "95%" }}>
           <div className="row">
             <div className="col-lg-3">
               <div className="feature-item">
@@ -162,7 +169,7 @@ function Home() {
                     <div className="icon">
                       <i
                         className="fa fa-laptop"
-                        style={{fontSize: 47, color: "red"}}
+                        style={{ fontSize: 47, color: "red" }}
                       />
                     </div>
                     <div className="right-content">
@@ -178,7 +185,7 @@ function Home() {
                     <div className="icon">
                       <i
                         className="fa fa-laptop"
-                        style={{fontSize: 47, color: "red"}}
+                        style={{ fontSize: 47, color: "red" }}
                       />
                     </div>
                     <div className="right-content">
@@ -194,7 +201,7 @@ function Home() {
                     <div className="icon">
                       <i
                         className="fa fa-mobile"
-                        style={{fontSize: 47, color: "red"}}
+                        style={{ fontSize: 47, color: "red" }}
                       />
                     </div>
                     <div className="right-content">
@@ -210,7 +217,7 @@ function Home() {
                     <div className="icon">
                       <i
                         className="fa fa-laptop"
-                        style={{fontSize: 47, color: "red"}}
+                        style={{ fontSize: 47, color: "red" }}
                       />
                     </div>
                     <div className="right-content">

@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function About() {
   return (
     <>
@@ -10,7 +11,8 @@ function About() {
               <div className="col-lg-12">
                 <h1>About Us</h1>
                 <span>
-                  <a href="#">Home</a>About Us
+                  <a href="#">Home</a>
+                  About Us
                 </span>
               </div>
             </div>
@@ -18,7 +20,7 @@ function About() {
         </div>
         <section className="steps">
           <div className="section-heading">
-            <h4 style={{fontSize: "xx-large", textAlign: "center"}}>
+            <h4 style={{ fontSize: "xx-large", textAlign: "center" }}>
               We are the best
             </h4>
             <h1
@@ -26,7 +28,8 @@ function About() {
                 color: "#009df2",
                 fontSize: "xxx-large",
                 textAlign: "center",
-              }}>
+              }}
+            >
               For all your needs
             </h1>
           </div>
@@ -50,7 +53,8 @@ function About() {
                       width: "75%",
                       textAlign: "center",
                       marginLeft: "7%",
-                    }}>
+                    }}
+                  >
                     Consult your idea with us!
                   </h4>
                   <div className="item-arrow">
@@ -75,7 +79,8 @@ function About() {
                       width: "75%",
                       textAlign: "center",
                       marginLeft: "7%",
-                    }}>
+                    }}
+                  >
                     We'll Develop your idea
                   </h4>
                   <div className="item-arrow">
@@ -100,7 +105,8 @@ function About() {
                       width: "75%",
                       textAlign: "center",
                       marginLeft: "7%",
-                    }}>
+                    }}
+                  >
                     We'll Digital Market your idea.{" "}
                   </h4>
                   <div className="item-arrow">
@@ -125,7 +131,8 @@ function About() {
                       width: "75%",
                       textAlign: "center",
                       marginLeft: "7%",
-                    }}>
+                    }}
+                  >
                     Client's happiness{" "}
                   </h4>
                 </div>
@@ -191,7 +198,8 @@ function About() {
                         role="dialog"
                         aria-labelledby="exampleModalCenter"
                         aria-hidden="true"
-                        className="modal-body">
+                        className="modal-body"
+                      >
                         <img src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FWho-%26-We-Are%3F%2Flearn.jpg?alt=media&token=b95d388f-e1c0-457f-8835-dae0390077b7" />
                       </div>
                     </div>
@@ -201,207 +209,303 @@ function About() {
             </div>
           </div>
         </section>
-        <section className="recent-cases">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-4">
-                <div className="section-heading">
-                  <h4 style={{fontSize: "xx-large"}}>Technologies</h4>
-                  <h1 style={{color: "#009df2", fontSize: "xxx-large"}}>
+        <section _ngcontent-dqc-c26 className="recent-cases">
+          <div _ngcontent-dqc-c26 className="container">
+            <div _ngcontent-dqc-c26 className="row">
+              <div _ngcontent-dqc-c26 className="col-lg-4">
+                <div _ngcontent-dqc-c26 className="section-heading">
+                  <h4 _ngcontent-dqc-c26 style={{ fontSize: "xx-large" }}>
+                    Technologies
+                  </h4>
+                  <h1
+                    _ngcontent-dqc-c26
+                    style={{ color: "#009df2", fontSize: "xxx-large" }}
+                  >
                     We works on..
                   </h1>
                 </div>
               </div>
-              <div className="col-lg-8">
-                <div className="portfolio-filters">
-                  <ul>
-                    <li data-filter="*" className="active">
+              <div _ngcontent-dqc-c26 className="col-lg-8">
+                <div _ngcontent-dqc-c26 className="portfolio-filters">
+                  <ul _ngcontent-dqc-c26>
+                    <li _ngcontent-dqc-c26 data-filter="*" className="active">
                       Show All
                     </li>
-                    <li data-filter=".web_design">Web Designing</li>
-                    <li data-filter=".web_dev">Web Development</li>
+                    <li _ngcontent-dqc-c26 data-filter=".web_design">
+                      Web Designing
+                    </li>
+                    <li _ngcontent-dqc-c26 data-filter=".web_dev">
+                      Web Development
+                    </li>
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-12">
-                <div className="row masonry-layout filters-content normal-col-gap">
-                  <div className="col-lg-3 masonry-item all web_design">
-                    <div className="case-item">
-                      <div className="case-thumb">
+              <div _ngcontent-dqc-c26 className="col-lg-12">
+                <div
+                  _ngcontent-dqc-c26
+                  className="row masonry-layout filters-content normal-col-gap"
+                >
+                  <div
+                    _ngcontent-dqc-c26
+                    className="col-lg-3 masonry-item all web_design"
+                  >
+                    <div _ngcontent-dqc-c26 className="case-item">
+                      <div _ngcontent-dqc-c26 className="case-thumb">
                         <img
+                          _ngcontent-dqc-c26
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fhtml_5.png?alt=media&token=61a7ca43-c857-4fad-9a61-a369753f95a9"
                           alt
-                          style={{width: "75%", marginLeft: 39}}
+                          style={{ width: "75%", marginLeft: 39 }}
                         />
                       </div>
-                      <div className="down-content" style={{height: 118}}>
-                        <h4>HTML 5</h4>
-                        <span>Markup language for Web pages.</span>
+                      <div
+                        _ngcontent-dqc-c26
+                        className="down-content"
+                        style={{ height: 118 }}
+                      >
+                        <h4 _ngcontent-dqc-c26>HTML 5</h4>
+                        <span _ngcontent-dqc-c26>
+                          Markup language for Web pages.
+                        </span>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3 masonry-item all web_design">
-                    <div className="case-item">
-                      <div className="case-thumb">
+                  <div
+                    _ngcontent-dqc-c26
+                    className="col-lg-3 masonry-item all web_design"
+                  >
+                    <div _ngcontent-dqc-c26 className="case-item">
+                      <div _ngcontent-dqc-c26 className="case-thumb">
                         <img
+                          _ngcontent-dqc-c26
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fcss_3.png?alt=media&token=55492815-4de7-4fee-9c1e-043549aabac5"
                           alt
-                          style={{width: "75%", marginLeft: 39}}
+                          style={{ width: "75%", marginLeft: 39 }}
                         />
                       </div>
-                      <div className="down-content">
-                        <h4>CSS 3</h4>
-                        <span>Cascading Style Sheets.</span>
+                      <div _ngcontent-dqc-c26 className="down-content">
+                        <h4 _ngcontent-dqc-c26>CSS 3</h4>
+                        <span _ngcontent-dqc-c26>Cascading Style Sheets.</span>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3 masonry-item all web_design">
-                    <div className="case-item">
-                      <div className="case-thumb">
+                  <div
+                    _ngcontent-dqc-c26
+                    className="col-lg-3 masonry-item all web_design"
+                  >
+                    <div _ngcontent-dqc-c26 className="case-item">
+                      <div _ngcontent-dqc-c26 className="case-thumb">
                         <img
+                          _ngcontent-dqc-c26
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fjavascript1.png?alt=media&token=bca923e2-0748-486d-bc2a-a9e7ea571f22"
                           alt
-                          style={{width: "75%", marginLeft: 39}}
+                          style={{ width: "75%", marginLeft: 39 }}
                         />
                       </div>
-                      <div className="down-content" style={{height: 118}}>
-                        <h4>Javascript</h4>
-                        <span>programming language for websites.</span>
+                      <div
+                        _ngcontent-dqc-c26
+                        className="down-content"
+                        style={{ height: 118 }}
+                      >
+                        <h4 _ngcontent-dqc-c26>Javascript</h4>
+                        <span _ngcontent-dqc-c26>
+                          programming language for websites.
+                        </span>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3 masonry-item all web_design">
-                    <div className="case-item">
-                      <div className="case-thumb">
+                  <div
+                    _ngcontent-dqc-c26
+                    className="col-lg-3 masonry-item all web_design"
+                  >
+                    <div _ngcontent-dqc-c26 className="case-item">
+                      <div _ngcontent-dqc-c26 className="case-thumb">
                         <img
+                          _ngcontent-dqc-c26
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fjquery.png?alt=media&token=20b7e294-b475-40dc-842d-991ece5eeb43"
                           alt
-                          style={{width: "75%", marginLeft: 39}}
+                          style={{ width: "75%", marginLeft: 39 }}
                         />
                       </div>
-                      <div className="down-content">
-                        <h4>jQuery</h4>
-                        <span>jQuery is a JavaScript Library.</span>
+                      <div _ngcontent-dqc-c26 className="down-content">
+                        <h4 _ngcontent-dqc-c26>jQuery</h4>
+                        <span _ngcontent-dqc-c26>
+                          jQuery is a JavaScript Library.
+                        </span>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3 masonry-item all web_design">
-                    <div className="case-item">
-                      <div className="case-thumb">
+                  <div
+                    _ngcontent-dqc-c26
+                    className="col-lg-3 masonry-item all web_design"
+                  >
+                    <div _ngcontent-dqc-c26 className="case-item">
+                      <div _ngcontent-dqc-c26 className="case-thumb">
                         <img
+                          _ngcontent-dqc-c26
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fbootstrap.png?alt=media&token=2fcc40e5-88f5-4cbe-8280-a96216ac8769"
                           alt
-                          style={{width: "75%", marginLeft: 39}}
+                          style={{ width: "75%", marginLeft: 39 }}
                         />
                       </div>
-                      <div className="down-content">
-                        <h4>Bootstrap</h4>
-                        <span>CSS framework</span>
+                      <div _ngcontent-dqc-c26 className="down-content">
+                        <h4 _ngcontent-dqc-c26>Bootstrap</h4>
+                        <span _ngcontent-dqc-c26>CSS framework</span>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3 masonry-item all web_design">
-                    <div className="case-item">
-                      <div className="case-thumb">
+                  <div
+                    _ngcontent-dqc-c26
+                    className="col-lg-3 masonry-item all web_design"
+                  >
+                    <div _ngcontent-dqc-c26 className="case-item">
+                      <div _ngcontent-dqc-c26 className="case-thumb">
                         <img
+                          _ngcontent-dqc-c26
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fwordpress.png?alt=media&token=4466e1d5-e13b-45a3-be77-4f76d984b8c4"
                           alt
-                          style={{width: "75%", marginLeft: 39}}
+                          style={{ width: "75%", marginLeft: 39 }}
                         />
                       </div>
-                      <div className="down-content" style={{height: 118}}>
-                        <h4>Wordpress</h4>
-                        <span>Content Management System (CMS). </span>
+                      <div
+                        _ngcontent-dqc-c26
+                        className="down-content"
+                        style={{ height: 118 }}
+                      >
+                        <h4 _ngcontent-dqc-c26>Wordpress</h4>
+                        <span _ngcontent-dqc-c26>
+                          Content Management System (CMS).{" "}
+                        </span>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3 masonry-item all web_dev">
-                    <div className="case-item">
-                      <div className="case-thumb">
+                  <div
+                    _ngcontent-dqc-c26
+                    className="col-lg-3 masonry-item all web_dev"
+                  >
+                    <div _ngcontent-dqc-c26 className="case-item">
+                      <div _ngcontent-dqc-c26 className="case-thumb">
                         <img
+                          _ngcontent-dqc-c26
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fphp.png?alt=media&token=701022ac-d1bc-4df6-b0f5-8655f48421fe"
                           alt
-                          style={{width: "75%", marginLeft: 39}}
+                          style={{ width: "75%", marginLeft: 39 }}
                         />
                       </div>
-                      <div className="down-content" style={{height: 118}}>
-                        <h4>PHP</h4>
-                        <span>PHP is a Server Scripting Language. </span>
+                      <div
+                        _ngcontent-dqc-c26
+                        className="down-content"
+                        style={{ height: 118 }}
+                      >
+                        <h4 _ngcontent-dqc-c26>PHP</h4>
+                        <span _ngcontent-dqc-c26>
+                          PHP is a Server Scripting Language.{" "}
+                        </span>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3 masonry-item all web_design">
-                    <div className="case-item">
-                      <div className="case-thumb">
+                  <div
+                    _ngcontent-dqc-c26
+                    className="col-lg-3 masonry-item all web_design"
+                  >
+                    <div _ngcontent-dqc-c26 className="case-item">
+                      <div _ngcontent-dqc-c26 className="case-thumb">
                         <img
+                          _ngcontent-dqc-c26
                           src="assets/frontend/images/technology/angular.png"
                           alt
-                          style={{width: "75%", marginLeft: 39}}
+                          style={{ width: "75%", marginLeft: 39 }}
                         />
                       </div>
-                      <div className="down-content">
-                        <h4>Angular</h4>
-                        <span>JavaScript framework. </span>
+                      <div _ngcontent-dqc-c26 className="down-content">
+                        <h4 _ngcontent-dqc-c26>Angular</h4>
+                        <span _ngcontent-dqc-c26>JavaScript framework. </span>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3 masonry-item all web_dev">
-                    <div className="case-item">
-                      <div className="case-thumb">
+                  <div
+                    _ngcontent-dqc-c26
+                    className="col-lg-3 masonry-item all web_dev"
+                  >
+                    <div _ngcontent-dqc-c26 className="case-item">
+                      <div _ngcontent-dqc-c26 className="case-thumb">
                         <img
+                          _ngcontent-dqc-c26
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Flaravel.png?alt=media&token=a443045f-69b4-4f8d-be75-729b241e0c76"
                           alt
-                          style={{width: "75%", marginLeft: 39}}
+                          style={{ width: "75%", marginLeft: 39 }}
                         />
                       </div>
-                      <div className="down-content">
-                        <h4>Laravel</h4>
-                        <span>PHP based web-framework. </span>
+                      <div _ngcontent-dqc-c26 className="down-content">
+                        <h4 _ngcontent-dqc-c26>Laravel</h4>
+                        <span _ngcontent-dqc-c26>
+                          PHP based web-framework.{" "}
+                        </span>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3 masonry-item all web_design">
-                    <div className="case-item">
-                      <div className="case-thumb">
+                  <div
+                    _ngcontent-dqc-c26
+                    className="col-lg-3 masonry-item all web_design"
+                  >
+                    <div _ngcontent-dqc-c26 className="case-item">
+                      <div _ngcontent-dqc-c26 className="case-thumb">
                         <img
+                          _ngcontent-dqc-c26
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fsql.jpg?alt=media&token=120f6bf6-24b2-43d8-a73b-0e8d9a2c1195"
                           alt
-                          style={{width: "100%", height: "100%"}}
+                          style={{ width: "100%", height: "100%" }}
                         />
                       </div>
-                      <div className="down-content">
-                        <h4>SQL</h4>
-                        <span>Query Language For Database. </span>
+                      <div _ngcontent-dqc-c26 className="down-content">
+                        <h4 _ngcontent-dqc-c26>SQL</h4>
+                        <span _ngcontent-dqc-c26>
+                          Query Language For Database.{" "}
+                        </span>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3 masonry-item all web_dev">
-                    <div className="case-item">
-                      <div className="case-thumb">
+                  <div
+                    _ngcontent-dqc-c26
+                    className="col-lg-3 masonry-item all web_dev"
+                  >
+                    <div _ngcontent-dqc-c26 className="case-item">
+                      <div _ngcontent-dqc-c26 className="case-thumb">
                         <img
+                          _ngcontent-dqc-c26
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fpython.png?alt=media&token=3778eca2-0dce-4f18-a765-8b954ecc46a0"
                           alt
-                          style={{width: "75%", marginLeft: 39}}
+                          style={{ width: "75%", marginLeft: 39 }}
                         />
                       </div>
-                      <div className="down-content">
-                        <h4>Python</h4>
-                        <span>Programing Language. </span>
+                      <div _ngcontent-dqc-c26 className="down-content">
+                        <h4 _ngcontent-dqc-c26>Python</h4>
+                        <span _ngcontent-dqc-c26>Programing Language. </span>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3 masonry-item all web_dev">
-                    <div className="case-item">
-                      <div className="case-thumb">
+                  <div
+                    _ngcontent-dqc-c26
+                    className="col-lg-3 masonry-item all web_dev"
+                  >
+                    <div _ngcontent-dqc-c26 className="case-item">
+                      <div _ngcontent-dqc-c26 className="case-thumb">
                         <img
+                          _ngcontent-dqc-c26
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fdjango.png?alt=media&token=d42f9fd1-24c1-4821-aa63-91bbe6b5f879"
                           alt
-                          style={{width: "75%", marginLeft: 39}}
+                          style={{ width: "75%", marginLeft: 39 }}
                         />
                       </div>
-                      <div className="down-content" style={{height: 118}}>
-                        <h4>Django</h4>
-                        <span>Open Source Python FrameWork</span>
+                      <div
+                        _ngcontent-dqc-c26
+                        className="down-content"
+                        style={{ height: 118 }}
+                      >
+                        <h4 _ngcontent-dqc-c26>Django</h4>
+                        <span _ngcontent-dqc-c26>
+                          Open Source Python FrameWork
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -428,7 +532,8 @@ function About() {
                           <a
                             href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvkj.png?alt=media&token=c2e9af3e-25bc-478e-b758-73dd296d67e6"
                             target="_blank"
-                            className="fancybox-pop fancybox.image">
+                            className="fancybox-pop fancybox.image"
+                          >
                             <i className="fa fa-search fa-border fa-2x" />
                           </a>
                         </li>
@@ -454,7 +559,8 @@ function About() {
                           <a
                             href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvaibhav.jpg?alt=media&token=71a35861-d268-488b-8699-ac6108881d4c"
                             target="_blank"
-                            className="fancybox-pop fancybox.image">
+                            className="fancybox-pop fancybox.image"
+                          >
                             <i className="fa fa-search fa-border fa-2x" />
                           </a>
                         </li>
@@ -480,7 +586,8 @@ function About() {
                           <a
                             href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fniket.jpg?alt=media&token=4ea14f42-85c3-48ca-9dfa-8c0817bf1563"
                             target="_blank"
-                            className="fancybox-pop fancybox.image">
+                            className="fancybox-pop fancybox.image"
+                          >
                             <i className="fa fa-search fa-border fa-2x" />
                           </a>
                         </li>
@@ -506,7 +613,8 @@ function About() {
                           <a
                             href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Frishi.jpg?alt=media&token=0a7f3772-d8c0-465e-b527-0faea353ed0a"
                             target="_blank"
-                            className="fancybox-pop fancybox.image">
+                            className="fancybox-pop fancybox.image"
+                          >
                             <i className="fa fa-search fa-border fa-2x" />
                           </a>
                         </li>
@@ -532,7 +640,8 @@ function About() {
                           <a
                             href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fceo.png?alt=media&token=4722e889-dc9d-40b4-8734-ac760495b08f"
                             target="_blank"
-                            className="fancybox-pop fancybox.image">
+                            className="fancybox-pop fancybox.image"
+                          >
                             <i className="fa fa-search fa-border fa-2x" />
                           </a>
                         </li>
@@ -561,7 +670,8 @@ function About() {
                           <a
                             href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fshivam-min.jpg?alt=media&token=5f4381dc-ab1d-4a5d-8ae7-7da24d0711d3"
                             target="_blank"
-                            className="fancybox-pop fancybox.image">
+                            className="fancybox-pop fancybox.image"
+                          >
                             <i className="fa fa-search fa-border fa-2x" />
                           </a>
                         </li>
@@ -587,7 +697,8 @@ function About() {
                           <a
                             href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fchanchal.jpg?alt=media&token=4f020a95-4d8e-42a3-92d7-6a5c5d79a50c"
                             target="_blank"
-                            className="fancybox-pop fancybox.image">
+                            className="fancybox-pop fancybox.image"
+                          >
                             <i className="fa fa-search fa-border fa-2x" />
                           </a>
                         </li>
@@ -616,7 +727,8 @@ function About() {
                           <a
                             href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvishakha.png?alt=media&token=2c53aabf-2341-4d28-a597-3f35d403b46f"
                             target="_blank"
-                            className="fancybox-pop fancybox.image">
+                            className="fancybox-pop fancybox.image"
+                          >
                             <i className="fa fa-search fa-border fa-2x" />
                           </a>
                         </li>
@@ -645,7 +757,8 @@ function About() {
                           <a
                             href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fyash.png?alt=media&token=3ffa7826-0688-46e8-b94a-6594c08feff6"
                             target="_blank"
-                            className="fancybox-pop fancybox.image">
+                            className="fancybox-pop fancybox.image"
+                          >
                             <i className="fa fa-search fa-border fa-2x" />
                           </a>
                         </li>
@@ -674,7 +787,8 @@ function About() {
                           <a
                             href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Faman.jpeg?alt=media&token=1a993fe2-eb2c-43f1-8e47-35db4f170864"
                             target="_blank"
-                            className="fancybox-pop fancybox.image">
+                            className="fancybox-pop fancybox.image"
+                          >
                             <i className="fa fa-search fa-border fa-2x" />
                           </a>
                         </li>
@@ -703,7 +817,8 @@ function About() {
                           <a
                             href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fkanishka.jpeg?alt=media&token=03bc9233-8066-45a1-8b8a-5725a57393fe"
                             target="_blank"
-                            className="fancybox-pop fancybox.image">
+                            className="fancybox-pop fancybox.image"
+                          >
                             <i className="fa fa-search fa-border fa-2x" />
                           </a>
                         </li>
@@ -733,7 +848,8 @@ function About() {
                           <a
                             href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fnidhi.jpeg?alt=media&token=146932cd-7f3c-4f27-b248-bda03d9227f1"
                             target="_blank"
-                            className="fancybox-pop fancybox.image">
+                            className="fancybox-pop fancybox.image"
+                          >
                             <i className="fa fa-search fa-border fa-2x" />
                           </a>
                         </li>
@@ -762,7 +878,8 @@ function About() {
                           <a
                             href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fshristi.jpeg?alt=media&token=2470093c-9f39-476b-b1e5-18006e7b5466"
                             target="_blank"
-                            className="fancybox-pop fancybox.image">
+                            className="fancybox-pop fancybox.image"
+                          >
                             <i className="fa fa-search fa-border fa-2x" />
                           </a>
                         </li>
@@ -785,294 +902,229 @@ function About() {
             </div>
           </div>
         </section>
-        <div style={{textAlign: "center"}}>
+        <div style={{ textAlign: "center" }}>
           <h1> Our Clients </h1>
-          <owl-carousel-o ng-reflect-options="[object Object]">
+          <owl-carousel-o _nghost-dqc-c19 ng-reflect-options="[object Object]">
             <div
+              _ngcontent-dqc-c19
               className="owl-carousel owl-theme owl-loaded owl-responsive"
-              ng-reflect-ng-class="[object Object]">
-              <div className="owl-stage-outer ng-star-inserted">
+              ng-reflect-ng-class="[object Object]"
+            >
+              <div
+                _ngcontent-dqc-c19
+                className="owl-stage-outer ng-star-inserted"
+              >
                 <owl-stage
+                  _ngcontent-dqc-c19
                   className="ng-tns-c20-0"
                   ng-reflect-owl-draggable="[object Object]"
                   ng-reflect-stage-data="[object Object]"
-                  ng-reflect-slides-data="[object Object],[object Object">
+                  ng-reflect-slides-data="[object Object],[object Object"
+                >
                   <div className="ng-tns-c20-0">
                     <div
                       className="owl-stage ng-tns-c20-0"
                       ng-reflect-ng-style="[object Object]"
                       style={{
                         width: 4105,
-                        transform: "translate3d(-1894px, 0px, 0px)",
+                        transform: "translate3d(-2210px, 0px, 0px)",
                         transition: "all 0.25s ease 0s",
-                      }}>
+                      }}
+                    >
                       <div
                         className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted cloned"
                         ng-reflect-ng-class="[object Object]"
                         ng-reflect-ng-style="[object Object]"
-                        style={{width: "315.75px"}}>
+                        style={{ width: "315.75px" }}
+                      >
                         <img
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2FIDTR.png?alt=media&token=7b350447-b83c-44fa-af67-3ed92c981457"
                           className="ng-star-inserted"
                           style={{}}
                         />
-                        {/*bindings={
-  "ng-reflect-ng-template-outlet": "[object Object]"
-}*/}
-                        {/*bindings={
-  "ng-reflect-ng-if": "true"
-}*/}
                       </div>
-                      {/*ng-container*/}
+
                       <div
                         className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted cloned"
                         ng-reflect-ng-class="[object Object]"
                         ng-reflect-ng-style="[object Object]"
-                        style={{width: "315.75px"}}>
+                        style={{ width: "315.75px" }}
+                      >
                         <img
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Ftemple.jpg?alt=media&token=579af0a8-dd0d-4b73-ad5c-a41e4e6c8e91"
                           className="ng-star-inserted"
                           style={{}}
                         />
-                        {/*bindings={
-  "ng-reflect-ng-template-outlet": "[object Object]"
-}*/}
-                        {/*bindings={
-  "ng-reflect-ng-if": "true"
-}*/}
                       </div>
-                      {/*ng-container*/}
+
                       <div
                         className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted cloned"
                         ng-reflect-ng-class="[object Object]"
                         ng-reflect-ng-style="[object Object]"
-                        style={{width: "315.75px"}}>
+                        style={{ width: "315.75px" }}
+                      >
                         <img
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Frjn.jpg?alt=media&token=2f1b02c6-442a-4461-888c-300041b961bf"
                           className="ng-star-inserted"
                           style={{}}
                         />
-                        {/*bindings={
-  "ng-reflect-ng-template-outlet": "[object Object]"
-}*/}
-                        {/*bindings={
-  "ng-reflect-ng-if": "true"
-}*/}
                       </div>
-                      {/*ng-container*/}
+
                       <div
                         className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted cloned"
                         ng-reflect-ng-class="[object Object]"
                         ng-reflect-ng-style="[object Object]"
-                        style={{width: "315.75px"}}>
+                        style={{ width: "315.75px" }}
+                      >
                         <img
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Frjnpic.jpg?alt=media&token=f4a7b2f8-35db-460c-8305-f0cd8d165d40"
                           className="ng-star-inserted"
                           style={{}}
                         />
-                        {/*bindings={
-  "ng-reflect-ng-template-outlet": "[object Object]"
-}*/}
-                        {/*bindings={
-  "ng-reflect-ng-if": "true"
-}*/}
                       </div>
-                      {/*ng-container*/}
+
                       <div
                         className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted"
                         ng-reflect-ng-class="[object Object]"
                         ng-reflect-ng-style="[object Object]"
-                        style={{width: "315.75px"}}>
+                        style={{ width: "315.75px" }}
+                      >
                         <img
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Fvee.jpg?alt=media&token=617847a8-22a9-4ee7-b454-c067669efe4f"
                           className="ng-star-inserted"
                           style={{}}
                         />
-                        {/*bindings={
-  "ng-reflect-ng-template-outlet": "[object Object]"
-}*/}
-                        {/*bindings={
-  "ng-reflect-ng-if": "true"
-}*/}
                       </div>
-                      {/*ng-container*/}
+
                       <div
                         className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted"
                         ng-reflect-ng-class="[object Object]"
                         ng-reflect-ng-style="[object Object]"
-                        style={{width: "315.75px"}}>
+                        style={{ width: "315.75px" }}
+                      >
                         <img
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2FIDTR.png?alt=media&token=7b350447-b83c-44fa-af67-3ed92c981457"
                           className="ng-star-inserted"
                           style={{}}
                         />
-                        {/*bindings={
-  "ng-reflect-ng-template-outlet": "[object Object]"
-}*/}
-                        {/*bindings={
-  "ng-reflect-ng-if": "true"
-}*/}
                       </div>
-                      {/*ng-container*/}
+
                       <div
-                        className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted active"
+                        className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted"
                         ng-reflect-ng-class="[object Object]"
                         ng-reflect-ng-style="[object Object]"
-                        style={{width: "315.75px"}}>
+                        style={{ width: "315.75px" }}
+                      >
                         <img
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Ftemple.jpg?alt=media&token=579af0a8-dd0d-4b73-ad5c-a41e4e6c8e91"
                           className="ng-star-inserted"
                           style={{}}
                         />
-                        {/*bindings={
-  "ng-reflect-ng-template-outlet": "[object Object]"
-}*/}
-                        {/*bindings={
-  "ng-reflect-ng-if": "true"
-}*/}
                       </div>
-                      {/*ng-container*/}
+
                       <div
                         className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted active"
                         ng-reflect-ng-class="[object Object]"
                         ng-reflect-ng-style="[object Object]"
-                        style={{width: "315.75px"}}>
+                        style={{ width: "315.75px" }}
+                      >
                         <img
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Frjn.jpg?alt=media&token=2f1b02c6-442a-4461-888c-300041b961bf"
                           className="ng-star-inserted"
                           style={{}}
                         />
-                        {/*bindings={
-  "ng-reflect-ng-template-outlet": "[object Object]"
-}*/}
-                        {/*bindings={
-  "ng-reflect-ng-if": "true"
-}*/}
                       </div>
-                      {/*ng-container*/}
+
                       <div
                         className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted active"
                         ng-reflect-ng-class="[object Object]"
                         ng-reflect-ng-style="[object Object]"
-                        style={{width: "315.75px"}}>
+                        style={{ width: "315.75px" }}
+                      >
                         <img
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Frjnpic.jpg?alt=media&token=f4a7b2f8-35db-460c-8305-f0cd8d165d40"
                           className="ng-star-inserted"
                           style={{}}
                         />
-                        {/*bindings={
-  "ng-reflect-ng-template-outlet": "[object Object]"
-}*/}
-                        {/*bindings={
-  "ng-reflect-ng-if": "true"
-}*/}
                       </div>
-                      {/*ng-container*/}
+
                       <div
                         className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted active cloned"
                         ng-reflect-ng-class="[object Object]"
                         ng-reflect-ng-style="[object Object]"
-                        style={{width: "315.75px"}}>
+                        style={{ width: "315.75px" }}
+                      >
                         <img
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Fvee.jpg?alt=media&token=617847a8-22a9-4ee7-b454-c067669efe4f"
                           className="ng-star-inserted"
                           style={{}}
                         />
-                        {/*bindings={
-  "ng-reflect-ng-template-outlet": "[object Object]"
-}*/}
-                        {/*bindings={
-  "ng-reflect-ng-if": "true"
-}*/}
                       </div>
-                      {/*ng-container*/}
+
                       <div
-                        className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted cloned"
+                        className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted active cloned"
                         ng-reflect-ng-class="[object Object]"
                         ng-reflect-ng-style="[object Object]"
-                        style={{width: "315.75px"}}>
+                        style={{ width: "315.75px" }}
+                      >
                         <img
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2FIDTR.png?alt=media&token=7b350447-b83c-44fa-af67-3ed92c981457"
                           className="ng-star-inserted"
                           style={{}}
                         />
-                        {/*bindings={
-  "ng-reflect-ng-template-outlet": "[object Object]"
-}*/}
-                        {/*bindings={
-  "ng-reflect-ng-if": "true"
-}*/}
                       </div>
-                      {/*ng-container*/}
+
                       <div
                         className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted cloned"
                         ng-reflect-ng-class="[object Object]"
                         ng-reflect-ng-style="[object Object]"
-                        style={{width: "315.75px"}}>
+                        style={{ width: "315.75px" }}
+                      >
                         <img
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Ftemple.jpg?alt=media&token=579af0a8-dd0d-4b73-ad5c-a41e4e6c8e91"
                           className="ng-star-inserted"
                           style={{}}
                         />
-                        {/*bindings={
-  "ng-reflect-ng-template-outlet": "[object Object]"
-}*/}
-                        {/*bindings={
-  "ng-reflect-ng-if": "true"
-}*/}
                       </div>
-                      {/*ng-container*/}
+
                       <div
                         className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted cloned"
                         ng-reflect-ng-class="[object Object]"
                         ng-reflect-ng-style="[object Object]"
-                        style={{width: "315.75px"}}>
+                        style={{ width: "315.75px" }}
+                      >
                         <img
                           src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Frjn.jpg?alt=media&token=2f1b02c6-442a-4461-888c-300041b961bf"
                           className="ng-star-inserted"
                           style={{}}
                         />
-                        {/*bindings={
-  "ng-reflect-ng-template-outlet": "[object Object]"
-}*/}
-                        {/*bindings={
-  "ng-reflect-ng-if": "true"
-}*/}
                       </div>
-                      {/*ng-container*/}
-                      {/*bindings={
-  "ng-reflect-ng-for-of": "[object Object],[object Object"
-}*/}
                     </div>
                   </div>
                 </owl-stage>
               </div>
-              {/*bindings={
-  "ng-reflect-ng-if": "true"
-}*/}
+
               <div
+                _ngcontent-dqc-c19
                 className="owl-nav ng-star-inserted"
-                ng-reflect-ng-class="[object Object]">
+                ng-reflect-ng-class="[object Object]"
+              >
                 <div
+                  _ngcontent-dqc-c19
                   className="owl-prev"
                   ng-reflect-ng-class="[object Object]"
                 />
                 <div
+                  _ngcontent-dqc-c19
                   className="owl-next"
                   ng-reflect-ng-class="[object Object]"
                 />
               </div>
               <div
+                _ngcontent-dqc-c19
                 className="owl-dots disabled ng-star-inserted"
-                ng-reflect-ng-class="[object Object]">
-                {/*bindings={
-  "ng-reflect-ng-for-of": ""
-}*/}
-              </div>
-              {/*ng-container*/}
-              {/*bindings={
-  "ng-reflect-ng-if": "5"
-}*/}
+                ng-reflect-ng-class="[object Object]"
+              ></div>
             </div>
           </owl-carousel-o>
         </div>

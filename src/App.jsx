@@ -1,8 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import "font-awesome/css/font-awesome.min.css";
+import "./assets/font-awesome.min.css";
+import "./assets/style.css";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Technologies from "./components/Technologies";
@@ -11,6 +12,9 @@ import Services from "./components/Services";
 import Events from "./components/Events";
 import Footer from "./components/Footer";
 import About from "./components/About_Us/About";
+import OurServices from "./components/OurServices/OurServices";
+import Training from "./components/Training/Training";
+import ContactUs from "./components/ContactUs/ContactUs";
 
 function App() {
   return (
@@ -23,6 +27,9 @@ function App() {
       <Events />
       <Footer />
       <About />
+      <OurServices />
+      <Training />
+      <ContactUs />
     </>
   );
 }
