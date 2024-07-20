@@ -184,6 +184,7 @@ function Index() {
           </div>
         </div>
       </section>
+      <br />
     </>
   );
 }

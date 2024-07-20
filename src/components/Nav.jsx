@@ -7,7 +7,12 @@ function Nav() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <img src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/logo%2Fcolorlogo.png?alt=media&amp;token=0386f0aa-e1e1-4950-924f-3eedaa82d967" />
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/logo%2Fcolorlogo.png?alt=media&amp;token=0386f0aa-e1e1-4950-924f-3eedaa82d967"
+              alt="Logo"
+              className="img-fluid"
+              style={{ maxHeight: "50px" }}
+            />
           </Link>
           <button
             className="navbar-toggler"
@@ -21,7 +26,7 @@ function Nav() {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Link className="nav-link text-dark" to="/">
                   Home
@@ -58,34 +63,22 @@ function Nav() {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <Link
-                      className="dropdown-item text-center text-dark"
-                      to="/xiaomi"
-                    >
+                    <Link className="dropdown-item text-dark" to="/xiaomi">
                       Xiaomi MI Company
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className="dropdown-item text-center text-dark"
-                      to="/bentchair"
-                    >
+                    <Link className="dropdown-item text-dark" to="/bentchair">
                       Bentchair Company
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className="dropdown-item text-center text-dark"
-                      to="/rjit"
-                    >
+                    <Link className="dropdown-item text-dark" to="/rjit">
                       Rjit College
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className="dropdown-item text-center text-dark"
-                      to="/mpct"
-                    >
+                    <Link className="dropdown-item text-dark" to="/mpct">
                       Mpct College
                     </Link>
                   </li>
@@ -108,7 +101,7 @@ function Nav() {
                 >
                   <li>
                     <Link
-                      className="dropdown-item text-center text-dark"
+                      className="dropdown-item text-dark"
                       to="/placement_desk"
                     >
                       Placement Desk
@@ -116,7 +109,7 @@ function Nav() {
                   </li>
                   <li>
                     <Link
-                      className="dropdown-item text-center text-dark"
+                      className="dropdown-item text-dark"
                       to="/placement_gallery"
                     >
                       Placement Gallery
@@ -140,26 +133,17 @@ function Nav() {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <Link
-                      className="dropdown-item text-center text-dark"
-                      to="/birthday"
-                    >
+                    <Link className="dropdown-item text-dark" to="/birthday">
                       Student's Birthday
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className="dropdown-item text-center text-dark"
-                      to="/aniversary"
-                    >
+                    <Link className="dropdown-item text-dark" to="/aniversary">
                       Aniversary Celebration
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className="dropdown-item text-center text-dark"
-                      to="/tour"
-                    >
+                    <Link className="dropdown-item text-dark" to="/tour">
                       Tour's
                     </Link>
                   </li>

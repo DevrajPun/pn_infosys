@@ -11,10 +11,10 @@ function Footer() {
                 <div className="footer-heading">
                   <img
                     src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/logo%2Fcolorlogo.png?alt=media&token=0386f0aa-e1e1-4950-924f-3eedaa82d967"
-                    style={{width: "100%", height: "100%"}}
+                    style={{ width: "100%", height: "100%" }}
                   />
                 </div>
-                <p className="about-oxana" style={{textAlign: "justify"}}>
+                <p className="about-oxana" style={{ textAlign: "justify" }}>
                   PN INFOSYS is a leading global business consulting and IT
                   service company. We provides a full range of maintenance and
                   compliance services for Government and Commercial facilities
@@ -35,11 +35,11 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="col-md-4 text-center">
-                <div className="footer-heading mr-1">
+              <div className="col-md-4 ">
+                <div className="footer-heading text-center mr-3">
                   <h4>Get In Touch!</h4>
                 </div>
-                <ul className="more-info">
+                <ul className="more-info text-center">
                   <li>
                     <a href="#">www.pninfosys.com</a>
                     <br />
@@ -59,29 +59,41 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="col-md-4 text-center">
-                <div className="footer-heading">
+              <div className="col-md-4">
+                <div className="footer-heading text-center">
                   <h4 id="title">COMPANIES WORKSHOP</h4>
                 </div>
-                <ul className="useful-links" style={{float: "left"}}>
-                  <li style={{color: "white"}}>
-                    <a href="#">Xiaomi MI Company</a>
-                    <br /> August 20 / Mr.Vaibhav Shrivastava
+                <ul className="list-unstyled text-center text-white">
+                  <li>
+                    <a href="#" className="text-white">
+                      Xiaomi MI Company
+                    </a>
+                    <br /> August 20 / Mr. Vaibhav Shrivastava
                   </li>
-                  <li style={{color: "white"}}>
-                    <a href="#">Bentchair Company</a>
-                    <br /> October 06 / Mr.Nicket Bansal
+                  <br />
+                  <li>
+                    <a href="#" className="text-white">
+                      Bentchair Company
+                    </a>
+                    <br /> October 06 / Mr. Nicket Bansal
                   </li>
-                  <li style={{color: "white"}}>
-                    <a href="#">MPCT College Gwalior</a>
+                  <br />
+                  <li>
+                    <a href="#" className="text-white">
+                      MPCT College Gwalior
+                    </a>
                     <br /> November 02 / PN Infosys Team
                   </li>
-                  <li style={{color: "white"}}>
-                    <a href="#">RJIT College Tekanpur</a>
-                    <br /> Febuary 24 / PN Infosys Team
+                  <br />
+                  <li>
+                    <a href="#" className="text-white">
+                      RJIT College Tekanpur
+                    </a>
+                    <br /> February 24 / PN Infosys Team
                   </li>
                 </ul>
               </div>
+
               <div className="col-md-12">
                 <div className="sub-footer">
                   <p>
