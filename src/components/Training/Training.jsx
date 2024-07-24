@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Index() {
   return (
@@ -9,7 +10,7 @@ function Index() {
             <div className="col-lg-12">
               <h1>Training</h1>
               <span>
-                <a href="#">Home</a>
+                <Link to="/">Home</Link>
                 Training
               </span>
             </div>
@@ -184,7 +185,7 @@ function Index() {
           </div>
         </div>
       </section>
-      <br />
+      <br /><br />
     </>
   );
 }

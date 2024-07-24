@@ -32,13 +32,13 @@ function BentChair() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/office/office1.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office1.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/office/office1.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office1.jpg"
                           alt="ffice1.jpg"
                           style={{ marginTop: 0 }}
                         />
@@ -49,13 +49,13 @@ function BentChair() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/office/office10.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office10.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/office/office10.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office10.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -66,13 +66,13 @@ function BentChair() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/office/office9.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office9.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/office/office9.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office9.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -83,13 +83,13 @@ function BentChair() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/office/office6.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office6.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/office/office6.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office6.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -100,13 +100,13 @@ function BentChair() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/office/office8.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office8.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/office/office8.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office8.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -117,13 +117,13 @@ function BentChair() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/office/office15.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office15.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/office/office15.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office15.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -134,13 +134,13 @@ function BentChair() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/office/office17.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office17.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/office/office17.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office17.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -151,13 +151,13 @@ function BentChair() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/office/office16.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office16.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/office/office16.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office16.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -168,13 +168,13 @@ function BentChair() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/office/office18.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office18.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/office/office18.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office18.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />

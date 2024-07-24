@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -24,14 +25,14 @@ function Footer() {
                 </p>
                 <ul className="social-icons">
                   <li>
-                    <a href="https://www.facebook.com/pninfosys/">
+                    <Link to="https://www.facebook.com/pninfosys/">
                       <i className="fa fa-facebook" />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/company/pninfosys/">
+                    <Link to="https://www.linkedin.com/company/pninfosys/">
                       <i className="fa fa-linkedin" />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -65,41 +66,40 @@ function Footer() {
                 </div>
                 <ul className="list-unstyled text-center text-white">
                   <li>
-                    <a href="#" className="text-white">
+                    <Link to="#" className="text-white">
                       Xiaomi MI Company
-                    </a>
+                    </Link>
                     <br /> August 20 / Mr. Vaibhav Shrivastava
                   </li>
                   <br />
                   <li>
-                    <a href="#" className="text-white">
+                    <Link to="#" className="text-white">
                       Bentchair Company
-                    </a>
+                    </Link>
                     <br /> October 06 / Mr. Nicket Bansal
                   </li>
                   <br />
                   <li>
-                    <a href="#" className="text-white">
+                    <Link to="#" className="text-white">
                       MPCT College Gwalior
-                    </a>
+                    </Link>
                     <br /> November 02 / PN Infosys Team
                   </li>
                   <br />
                   <li>
-                    <a href="#" className="text-white">
+                    <Link to="#" className="text-white">
                       RJIT College Tekanpur
-                    </a>
+                    </Link>
                     <br /> February 24 / PN Infosys Team
                   </li>
                 </ul>
               </div>
-
               <div className="col-md-12">
                 <div className="sub-footer">
                   <p>
-                    Copyright © 2020{" "}
-                    <a href="#"> | PN INFOSYS IT COMPANY IN GWALIOR ! </a>. All
-                    rights reserved.
+                    Copyright © 2024-2025
+                    <Link to="#"> | PN INFOSYS IT COMPANY IN GWALIOR ! </Link>.
+                    All rights reserved.
                   </p>
                 </div>
               </div>

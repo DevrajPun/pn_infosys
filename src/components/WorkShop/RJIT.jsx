@@ -32,13 +32,13 @@ function RJIT() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/rjit/rjit10.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit10.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/rjit/rjit10.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit10.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -49,13 +49,13 @@ function RJIT() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/rjit/rjit9.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit9.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/rjit/rjit9.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit9.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -66,13 +66,13 @@ function RJIT() {
                 <div className="col-lg-4 masonry-item all category-digital">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/rjit/rjit4.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit4.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/rjit/rjit4.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit4.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -83,13 +83,13 @@ function RJIT() {
                 <div className="col-lg-4 masonry-item all category-digital">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/rjit/rjit1.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit1.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/rjit/rjit1.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit1.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -100,13 +100,13 @@ function RJIT() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/rjit/rjit2.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit2.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/rjit/rjit2.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit2.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -117,13 +117,13 @@ function RJIT() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/rjit/rjit12.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit12.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/rjit/rjit12.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit12.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -134,13 +134,13 @@ function RJIT() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/rjit/rjit13.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit14.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/rjit/rjit13 (2).jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit14.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -151,13 +151,13 @@ function RJIT() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/rjit/rjit14.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit15.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/rjit/rjit14.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit15.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -168,13 +168,13 @@ function RJIT() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/rjit/rjit15.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit16.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/rjit/rjit15.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit16.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -185,13 +185,13 @@ function RJIT() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/rjit/rjit16.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit13%20(2).jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/rjit/rjit16.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit13%20(2).jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -202,13 +202,13 @@ function RJIT() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/rjit/rjit17.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit17.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/rjit/rjit17.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit17.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -219,13 +219,13 @@ function RJIT() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/rjit/rjit18.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit18.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/rjit/rjit18.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit18.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />

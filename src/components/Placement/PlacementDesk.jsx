@@ -4,7 +4,7 @@ function PlacementDesk() {
   return (
     <>
       <div className="main-content">
-        <div className="page-heading">
+        <div className="page-heading1">
           <div className="container">
             <br />
             <br />
@@ -28,7 +28,7 @@ function PlacementDesk() {
                 textAlign: "center",
               }}
             >
-              Welcome to our Placement Cell{" "}
+              Welcome to our Placement Cell
             </h1>
             <h4
               className="align-justify"
@@ -90,7 +90,7 @@ function PlacementDesk() {
               <div className="col-lg-6 align-self-center">
                 <div className="video-thumb">
                   <img
-                    src="assets/images/placement/placementdesk/vj1.png"
+                    src="https://pninfosys.com/assets/images/placement/placementdesk/vj1.png"
                     alt
                   />
                 </div>
@@ -143,7 +143,7 @@ function PlacementDesk() {
               <div className="col-lg-6 align-self-center">
                 <div className="video-thumb">
                   <img
-                    src="assets/images/placement/placementdesk/neha (1).jpeg"
+                    src="https://pninfosys.com/assets/images/placement/placementdesk/neha%20(1).jpeg"
                     alt
                   />
                 </div>
@@ -151,481 +151,366 @@ function PlacementDesk() {
             </div>
           </div>
         </section>
-        <app-testimonial _nghost-dqc-c129>
-          <section
-            _ngcontent-dqc-c129
-            className="container text-center my-5 mt-5"
-          >
-            <h2
-              _ngcontent-dqc-c129
-              className="h1-responsive font-weight-bold my-5"
+        <section className="container text-center my-5 mt-5">
+          <h2 className="h1-responsive font-weight-bold my-5">
+            What our students say..!!
+          </h2>
+          <div className="row">
+            <mdb-carousel
+              className="carousel-multi-item multi-animation testimonial-carousel"
+              ng-reflect-is-controls="false"
+              ng-reflect-type="carousel-multi-item"
+              ng-reflect-animation="slide"
             >
-              What our students say..!!
-            </h2>
-            <div className="row">
-              <mdb-carousel
-                _ngcontent-dqc-c129
-                className="carousel-multi-item multi-animation testimonial-carousel"
-                ng-reflect-is-controls="false"
-                ng-reflect-type="carousel-multi-item"
-                ng-reflect-animation="slide"
+              <div
+                tabIndex={0}
+                className="carousel carousel-multi-item multi-animation testimonial-carousel"
               >
-                <div
-                  tabIndex={0}
-                  className="carousel carousel-multi-item multi-animation testimonial-carousel"
-                >
-                  <div className="carousel-inner">
-                    <mdb-slide className="carousel-item">
-                      <div className="col-md-4">
-                        <div className="testimonial">
-                          <h4
-                            _ngcontent-dqc-c129
-                            className="font-weight-bold mt-4"
+                <div className="carousel-inner">
+                  <mdb-slide className="carousel-item">
+                    <div className="col-md-4">
+                      <div className="testimonial">
+                        <h4 className="font-weight-bold mt-4">
+                          Manoj Palwaliya
+                        </h4>
+                        <h6 className="blue-text font-weight-bold my-3">
+                          Full Stack Developer
+                        </h6>
+                        <p className="font-weight-normal">
+                          <mdb-icon
+                            fa
+                            icon="quote-left"
+                            className="fa fa-quote-left pr-2"
+                            ng-reflect-icon="quote-left"
                           >
-                            Manoj Palwaliya
-                          </h4>
-                          <h6
-                            _ngcontent-dqc-c129
-                            className="blue-text font-weight-bold my-3"
+                            <i
+                              className="fa-quote-left fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>{" "}
+                          It is the best learning hub for all adamant students.
+                          It is based on 100% practical approach. Here trainee
+                          gets to work on Live Projects, which automatically
+                          strengthens the portfolio(C.V).{" "}
+                          <mdb-icon
+                            fa
+                            icon="quote-right"
+                            className="fa fa-quote-right pr-2"
+                            ng-reflect-icon="quote-right"
                           >
-                            Full Stack Developer
-                          </h6>
-                          <p className="font-weight-normal">
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-left"
-                              className="fa fa-quote-left pr-2"
-                              ng-reflect-icon="quote-left"
-                            >
-                              <i
-                                className="fa-quote-left fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>{" "}
-                            It is the best learning hub for all adamant
-                            students. It is based on 100% practical approach.
-                            Here trainee gets to work on Live Projects, which
-                            automatically strengthens the portfolio(C.V).{" "}
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-right"
-                              className="fa fa-quote-right pr-2"
-                              ng-reflect-icon="quote-right"
-                            >
-                              <i
-                                className="fa-quote-right fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>
-                          </p>
-                        </div>
+                            <i
+                              className="fa-quote-right fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>
+                        </p>
                       </div>
-                      <div
-                        _ngcontent-dqc-c129
-                        className="col-md-4 clearfix d-none d-md-block"
-                      >
-                        <div className="testimonial">
-                          <h4
-                            _ngcontent-dqc-c129
-                            className="font-weight-bold mt-4"
+                    </div>
+                    <div className="col-md-4 clearfix d-none d-md-block">
+                      <div className="testimonial">
+                        <h4 className="font-weight-bold mt-4">
+                          Riya Parashar{" "}
+                        </h4>
+                        <h6 className="blue-text font-weight-bold my-3">
+                          Web Developer
+                        </h6>
+                        <p className="font-weight-normal">
+                          <mdb-icon
+                            fa
+                            icon="quote-left"
+                            className="fa fa-quote-left pr-2"
+                            ng-reflect-icon="quote-left"
                           >
-                            Riya Parashar{" "}
-                          </h4>
-                          <h6
-                            _ngcontent-dqc-c129
-                            className="blue-text font-weight-bold my-3"
+                            <i
+                              className="fa-quote-left fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>{" "}
+                          It is the best learning hub for all students. Best
+                          place to learn ..thank u PN Infosys ♥️{" "}
+                          <mdb-icon
+                            fa
+                            icon="quote-right"
+                            className="fa fa-quote-right pr-2"
+                            ng-reflect-icon="quote-right"
                           >
-                            Web Developer
-                          </h6>
-                          <p className="font-weight-normal">
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-left"
-                              className="fa fa-quote-left pr-2"
-                              ng-reflect-icon="quote-left"
-                            >
-                              <i
-                                className="fa-quote-left fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>{" "}
-                            It is the best learning hub for all students. Best
-                            place to learn ..thank u PN Infosys ♥️{" "}
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-right"
-                              className="fa fa-quote-right pr-2"
-                              ng-reflect-icon="quote-right"
-                            >
-                              <i
-                                className="fa-quote-right fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>
-                          </p>
-                        </div>
+                            <i
+                              className="fa-quote-right fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>
+                        </p>
                       </div>
-                      <div
-                        _ngcontent-dqc-c129
-                        className="col-md-4 clearfix d-none d-md-block"
-                      >
-                        <div className="testimonial">
-                          <h4
-                            _ngcontent-dqc-c129
-                            className="font-weight-bold mt-4"
+                    </div>
+                    <div className="col-md-4 clearfix d-none d-md-block">
+                      <div className="testimonial">
+                        <h4 className="font-weight-bold mt-4">Akansha Tomar</h4>
+                        <h6 className="blue-text font-weight-bold my-3">
+                          Full-Stack Developer
+                        </h6>
+                        <p className="font-weight-normal">
+                          <mdb-icon
+                            fa
+                            icon="quote-left"
+                            className="fa fa-quote-left pr-2"
+                            ng-reflect-icon="quote-left"
                           >
-                            Akansha Tomar
-                          </h4>
-                          <h6
-                            _ngcontent-dqc-c129
-                            className="blue-text font-weight-bold my-3"
+                            <i
+                              className="fa-quote-left fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>{" "}
+                          Best place to learn, grow and to nourish up technical
+                          skills, focus on web designing and web development,
+                          provide complete training from basic to advance
+                          level.Work on latest technology which are in demand.{" "}
+                          <mdb-icon
+                            fa
+                            icon="quote-right"
+                            className="fa fa-quote-right pr-2"
+                            ng-reflect-icon="quote-right"
                           >
-                            Full-Stack Developer
-                          </h6>
-                          <p className="font-weight-normal">
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-left"
-                              className="fa fa-quote-left pr-2"
-                              ng-reflect-icon="quote-left"
-                            >
-                              <i
-                                className="fa-quote-left fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>{" "}
-                            Best place to learn, grow and to nourish up
-                            technical skills, focus on web designing and web
-                            development, provide complete training from basic to
-                            advance level.Work on latest technology which are in
-                            demand.{" "}
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-right"
-                              className="fa fa-quote-right pr-2"
-                              ng-reflect-icon="quote-right"
-                            >
-                              <i
-                                className="fa-quote-right fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>
-                          </p>
-                        </div>
+                            <i
+                              className="fa-quote-right fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>
+                        </p>
                       </div>
-                    </mdb-slide>
-                    <mdb-slide className="carousel-item">
-                      <div className="col-md-4">
-                        <div className="testimonial">
-                          <h4
-                            _ngcontent-dqc-c129
-                            className="font-weight-bold mt-4"
+                    </div>
+                  </mdb-slide>
+                  <mdb-slide className="carousel-item">
+                    <div className="col-md-4">
+                      <div className="testimonial">
+                        <h4 className="font-weight-bold mt-4">Rohit Kumar</h4>
+                        <h6 className="blue-text font-weight-bold my-3">
+                          UI/UX Developer
+                        </h6>
+                        <p className="font-weight-normal">
+                          <mdb-icon
+                            fa
+                            icon="quote-left"
+                            className="fa fa-quote-left pr-2"
+                            ng-reflect-icon="quote-left"
                           >
-                            Rohit Kumar
-                          </h4>
-                          <h6
-                            _ngcontent-dqc-c129
-                            className="blue-text font-weight-bold my-3"
+                            <i
+                              className="fa-quote-left fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>{" "}
+                          Its a great experience in PN INFOSYS, the working
+                          environment which they provides to their employees is
+                          just incredible. Thanks for everything from bottom of
+                          my heart ♥️{" "}
+                          <mdb-icon
+                            fa
+                            icon="quote-right"
+                            className="fa fa-quote-right pr-2"
+                            ng-reflect-icon="quote-right"
                           >
-                            UI/UX Developer
-                          </h6>
-                          <p className="font-weight-normal">
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-left"
-                              className="fa fa-quote-left pr-2"
-                              ng-reflect-icon="quote-left"
-                            >
-                              <i
-                                className="fa-quote-left fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>{" "}
-                            Its a great experience in PN INFOSYS, the working
-                            environment which they provides to their employees
-                            is just incredible. Thanks for everything from
-                            bottom of my heart ♥️{" "}
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-right"
-                              className="fa fa-quote-right pr-2"
-                              ng-reflect-icon="quote-right"
-                            >
-                              <i
-                                className="fa-quote-right fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>
-                          </p>
-                        </div>
+                            <i
+                              className="fa-quote-right fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>
+                        </p>
                       </div>
-                      <div
-                        _ngcontent-dqc-c129
-                        className="col-md-4 clearfix d-none d-md-block"
-                      >
-                        <div className="testimonial">
-                          <h4
-                            _ngcontent-dqc-c129
-                            className="font-weight-bold mt-4"
+                    </div>
+                    <div className="col-md-4 clearfix d-none d-md-block">
+                      <div className="testimonial">
+                        <h4 className="font-weight-bold mt-4">Vinod Chauhan</h4>
+                        <h6 className="blue-text font-weight-bold my-3">
+                          Full-Stack Developer
+                        </h6>
+                        <p className="font-weight-normal">
+                          <mdb-icon
+                            fa
+                            icon="quote-left"
+                            className="fa fa-quote-left pr-2"
+                            ng-reflect-icon="quote-left"
                           >
-                            Vinod Chauhan
-                          </h4>
-                          <h6
-                            _ngcontent-dqc-c129
-                            className="blue-text font-weight-bold my-3"
+                            <i
+                              className="fa-quote-left fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>{" "}
+                          I have been interning here since, June 15/2018. And my
+                          Experience with the team here is quite interesting,
+                          following are the points that i would like to enlist:-
+                          * Excellent &amp; knowledgeable teaching staff. *
+                          Availability of learning resources. * Hands on latest
+                          technologies. * 8:2 split rule i.e. 80% practical
+                          &amp; 20%theory which is pretty good. * And on the
+                          top, we enjoy a lot here while exploring new
+                          things.... 😉{" "}
+                          <mdb-icon
+                            fa
+                            icon="quote-right"
+                            className="fa fa-quote-right pr-2"
+                            ng-reflect-icon="quote-right"
                           >
-                            Full-Stack Developer
-                          </h6>
-                          <p className="font-weight-normal">
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-left"
-                              className="fa fa-quote-left pr-2"
-                              ng-reflect-icon="quote-left"
-                            >
-                              <i
-                                className="fa-quote-left fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>{" "}
-                            I have been interning here since, June 15/2018. And
-                            my Experience with the team here is quite
-                            interesting, following are the points that i would
-                            like to enlist:- * Excellent &amp; knowledgeable
-                            teaching staff. * Availability of learning
-                            resources. * Hands on latest technologies. * 8:2
-                            split rule i.e. 80% practical &amp; 20%theory which
-                            is pretty good. * And on the top, we enjoy a lot
-                            here while exploring new things.... 😉{" "}
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-right"
-                              className="fa fa-quote-right pr-2"
-                              ng-reflect-icon="quote-right"
-                            >
-                              <i
-                                className="fa-quote-right fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>
-                          </p>
-                        </div>
+                            <i
+                              className="fa-quote-right fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>
+                        </p>
                       </div>
-                      <div
-                        _ngcontent-dqc-c129
-                        className="col-md-4 clearfix d-none d-md-block"
-                      >
-                        <div className="testimonial">
-                          <h4
-                            _ngcontent-dqc-c129
-                            className="font-weight-bold mt-4"
+                    </div>
+                    <div className="col-md-4 clearfix d-none d-md-block">
+                      <div className="testimonial">
+                        <h4 className="font-weight-bold mt-4">Vipin Sharnma</h4>
+                        <h6 className="blue-text font-weight-bold my-3">
+                          Developer
+                        </h6>
+                        <p className="font-weight-normal">
+                          <mdb-icon
+                            fa
+                            icon="quote-left"
+                            className="fa fa-quote-left pr-2"
+                            ng-reflect-icon="quote-left"
                           >
-                            Vipin Sharnma
-                          </h4>
-                          <h6
-                            _ngcontent-dqc-c129
-                            className="blue-text font-weight-bold my-3"
+                            <i
+                              className="fa-quote-left fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>{" "}
+                          This is the platform where we can learn many things,
+                          not even web designing or web development, we can
+                          learn how to represent yourself and many more things.
+                          Here all classes are practically conducting which is
+                          the best way of teaching to grasp more knowledge by
+                          students in trainings.{" "}
+                          <mdb-icon
+                            fa
+                            icon="quote-right"
+                            className="fa fa-quote-right pr-2"
+                            ng-reflect-icon="quote-right"
                           >
-                            Developer
-                          </h6>
-                          <p className="font-weight-normal">
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-left"
-                              className="fa fa-quote-left pr-2"
-                              ng-reflect-icon="quote-left"
-                            >
-                              <i
-                                className="fa-quote-left fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>{" "}
-                            This is the platform where we can learn many things,
-                            not even web designing or web development, we can
-                            learn how to represent yourself and many more
-                            things. Here all classes are practically conducting
-                            which is the best way of teaching to grasp more
-                            knowledge by students in trainings.{" "}
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-right"
-                              className="fa fa-quote-right pr-2"
-                              ng-reflect-icon="quote-right"
-                            >
-                              <i
-                                className="fa-quote-right fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>
-                          </p>
-                        </div>
+                            <i
+                              className="fa-quote-right fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>
+                        </p>
                       </div>
-                    </mdb-slide>
-                    <mdb-slide
-                      _ngcontent-dqc-c129
-                      className="carousel-item active"
-                    >
-                      <div className="col-md-4">
-                        <div className="testimonial">
-                          <h4
-                            _ngcontent-dqc-c129
-                            className="font-weight-bold mt-4"
+                    </div>
+                  </mdb-slide>
+                  <mdb-slide className="carousel-item active">
+                    <div className="col-md-4">
+                      <div className="testimonial">
+                        <h4 className="font-weight-bold mt-4">Alok Saxena</h4>
+                        <h6 className="blue-text font-weight-bold my-3">
+                          Full-Stack Developer
+                        </h6>
+                        <p className="font-weight-normal">
+                          <mdb-icon
+                            fa
+                            icon="quote-left"
+                            className="fa fa-quote-left pr-2"
+                            ng-reflect-icon="quote-left"
                           >
-                            Alok Saxena
-                          </h4>
-                          <h6
-                            _ngcontent-dqc-c129
-                            className="blue-text font-weight-bold my-3"
+                            <i
+                              className="fa-quote-left fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>{" "}
+                          Very friendly.. They respond to queries immediately
+                          and they extend help hot to resolve some concerns and
+                          his way of teaching is awsm..{" "}
+                          <mdb-icon
+                            fa
+                            icon="quote-right"
+                            className="fa fa-quote-right pr-2"
+                            ng-reflect-icon="quote-right"
                           >
-                            Full-Stack Developer
-                          </h6>
-                          <p className="font-weight-normal">
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-left"
-                              className="fa fa-quote-left pr-2"
-                              ng-reflect-icon="quote-left"
-                            >
-                              <i
-                                className="fa-quote-left fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>{" "}
-                            Very friendly.. They respond to queries immediately
-                            and they extend help hot to resolve some concerns
-                            and his way of teaching is awsm..{" "}
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-right"
-                              className="fa fa-quote-right pr-2"
-                              ng-reflect-icon="quote-right"
-                            >
-                              <i
-                                className="fa-quote-right fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>
-                          </p>
-                        </div>
+                            <i
+                              className="fa-quote-right fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>
+                        </p>
                       </div>
-                      <div
-                        _ngcontent-dqc-c129
-                        className="col-md-4 clearfix d-none d-md-block"
-                      >
-                        <div className="testimonial">
-                          <h4
-                            _ngcontent-dqc-c129
-                            className="font-weight-bold mt-4"
+                    </div>
+                    <div className="col-md-4 clearfix d-none d-md-block">
+                      <div className="testimonial">
+                        <h4 className="font-weight-bold mt-4">Rekha</h4>
+                        <h6 className="blue-text font-weight-bold my-3">
+                          Full-Stack Developer
+                        </h6>
+                        <p className="font-weight-normal">
+                          <mdb-icon
+                            fa
+                            icon="quote-left"
+                            className="fa fa-quote-left pr-2"
+                            ng-reflect-icon="quote-left"
                           >
-                            Rekha
-                          </h4>
-                          <h6
-                            _ngcontent-dqc-c129
-                            className="blue-text font-weight-bold my-3"
+                            <i
+                              className="fa-quote-left fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>{" "}
+                          Amazing Way of teaching is too good . Complete
+                          concepts in easy way to learn. Highly
+                          recommendable....{" "}
+                          <mdb-icon
+                            fa
+                            icon="quote-right"
+                            className="fa fa-quote-right pr-2"
+                            ng-reflect-icon="quote-right"
                           >
-                            Full-Stack Developer
-                          </h6>
-                          <p className="font-weight-normal">
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-left"
-                              className="fa fa-quote-left pr-2"
-                              ng-reflect-icon="quote-left"
-                            >
-                              <i
-                                className="fa-quote-left fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>{" "}
-                            Amazing Way of teaching is too good . Complete
-                            concepts in easy way to learn. Highly
-                            recommendable....{" "}
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-right"
-                              className="fa fa-quote-right pr-2"
-                              ng-reflect-icon="quote-right"
-                            >
-                              <i
-                                className="fa-quote-right fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>
-                          </p>
-                        </div>
+                            <i
+                              className="fa-quote-right fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>
+                        </p>
                       </div>
-                      <div
-                        _ngcontent-dqc-c129
-                        className="col-md-4 clearfix d-none d-md-block"
-                      >
-                        <div className="testimonial">
-                          <h4
-                            _ngcontent-dqc-c129
-                            className="font-weight-bold mt-4"
+                    </div>
+                    <div className="col-md-4 clearfix d-none d-md-block">
+                      <div className="testimonial">
+                        <h4 className="font-weight-bold mt-4">
+                          Srashti Tripathi 'Safeena'
+                        </h4>
+                        <h6 className="blue-text font-weight-bold my-3">
+                          Full-Stack Developer
+                        </h6>
+                        <p className="font-weight-normal">
+                          <mdb-icon
+                            fa
+                            icon="quote-left"
+                            className="fa fa-quote-left pr-2"
+                            ng-reflect-icon="quote-left"
                           >
-                            Srashti Tripathi 'Safeena'
-                          </h4>
-                          <h6
-                            _ngcontent-dqc-c129
-                            className="blue-text font-weight-bold my-3"
+                            <i
+                              className="fa-quote-left fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>{" "}
+                          I worked part-time there from 2019, Amazing culture,
+                          great benefits, great pay, good opportunity to learn
+                          and awesome people and management. Mentor is very nice
+                          and supportive.{" "}
+                          <mdb-icon
+                            fa
+                            icon="quote-right"
+                            className="fa fa-quote-right pr-2"
+                            ng-reflect-icon="quote-right"
                           >
-                            Full-Stack Developer
-                          </h6>
-                          <p className="font-weight-normal">
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-left"
-                              className="fa fa-quote-left pr-2"
-                              ng-reflect-icon="quote-left"
-                            >
-                              <i
-                                className="fa-quote-left fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>{" "}
-                            I worked part-time there from 2019, Amazing culture,
-                            great benefits, great pay, good opportunity to learn
-                            and awesome people and management. Mentor is very
-                            nice and supportive.{" "}
-                            <mdb-icon
-                              _ngcontent-dqc-c129
-                              fa
-                              icon="quote-right"
-                              className="fa fa-quote-right pr-2"
-                              ng-reflect-icon="quote-right"
-                            >
-                              <i
-                                className="fa-quote-right fa pr-2"
-                                ng-reflect-ng-class="[object Object]"
-                              />
-                            </mdb-icon>
-                          </p>
-                        </div>
+                            <i
+                              className="fa-quote-right fa pr-2"
+                              ng-reflect-ng-class="[object Object]"
+                            />
+                          </mdb-icon>
+                        </p>
                       </div>
-                    </mdb-slide>
-                  </div>
+                    </div>
+                  </mdb-slide>
                 </div>
-              </mdb-carousel>
-            </div>
-          </section>
-        </app-testimonial>
+              </div>
+            </mdb-carousel>
+          </div>
+        </section>
       </div>
     </>
   );

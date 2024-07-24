@@ -29,10 +29,10 @@ function Birthday() {
               <div className="row masonry-layout filters-content normal-col-gap">
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
-                    <a href="assets/frontend/images/event/birthday/hbd1.jpg">
+                    <a href="https://pninfosys.com/assets/frontend/images/event/birthday/hbd1.jpg">
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/birthday/hbd1.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/event/birthday/hbd1.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -43,13 +43,13 @@ function Birthday() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/birthday/hbd19.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/event/birthday/hbd2.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/birthday/hbd2.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/event/birthday/hbd2.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -60,13 +60,13 @@ function Birthday() {
                 <div className="col-lg-4 masonry-item all category-digital">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/birthday/hbd3.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/event/birthday/hbd3.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/birthday/hbd3.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/event/birthday/hbd3.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -77,13 +77,13 @@ function Birthday() {
                 <div className="col-lg-4 masonry-item all category-digital">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/birthday/hbd4.png"
+                      href="https://pninfosys.com/assets/frontend/images/event/birthday/hbd4.png"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/birthday/hbd4.png"
+                          src="https://pninfosys.com/assets/frontend/images/event/birthday/hbd4.png"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -94,13 +94,13 @@ function Birthday() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/birthday/hbd5.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/event/birthday/hbd5.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/birthday/hbd5.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/event/birthday/hbd5.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -111,13 +111,13 @@ function Birthday() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/birthday/hbd6.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/event/birthday/hbd6.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/birthday/hbd6.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/event/birthday/hbd6.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -128,13 +128,13 @@ function Birthday() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/birthday/hbd7.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/event/birthday/hbd7.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/birthday/hbd7.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/event/birthday/hbd7.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -145,13 +145,13 @@ function Birthday() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/birthday/hbd8.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/event/birthday/hbd8.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/birthday/hbd8.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/event/birthday/hbd8.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -162,13 +162,13 @@ function Birthday() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/birthday/hbd9.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/event/birthday/hbd9.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/birthday/hbd9.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/event/birthday/hbd9.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -179,13 +179,13 @@ function Birthday() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/birthday/hbd10.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/event/birthday/hbd10.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/birthday/hbd10.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/event/birthday/hbd10.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -196,13 +196,13 @@ function Birthday() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/birthday/hbd11.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/event/birthday/hbd11.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/birthday/hbd11.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/event/birthday/hbd11.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -213,13 +213,13 @@ function Birthday() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/birthday/hbd12.png"
+                      href="https://pninfosys.com/assets/frontend/images/event/birthday/hbd12.png"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/birthday/hbd12.png"
+                          src="https://pninfosys.com/assets/frontend/images/event/birthday/hbd12.png"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -230,13 +230,13 @@ function Birthday() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/birthday/hbd13.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/event/birthday/hbd13.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/birthday/hbd13.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/event/birthday/hbd13.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -247,13 +247,13 @@ function Birthday() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/birthday/hbd4.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/event/birthday/hbd15.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/birthday/hbd14.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/event/birthday/hbd15.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -264,30 +264,13 @@ function Birthday() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/birthday/hbd15.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/event/birthday/hbd16.png"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/birthday/hbd15.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-seo">
-                  <div className="case-item">
-                    <a
-                      href="assets/frontend/images/event/birthday/hbd16.png"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="assets/frontend/images/event/birthday/hbd16.png"
+                          src="https://pninfosys.com/assets/frontend/images/event/birthday/hbd16.png"
                           alt
                           style={{ marginTop: 0 }}
                         />

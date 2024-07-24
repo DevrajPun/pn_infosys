@@ -34,13 +34,13 @@ function MPCT() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/mpct/mpct1.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct1.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/mpct/mpct1.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct1.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -51,13 +51,13 @@ function MPCT() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/mpct/mpct2.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct2.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/mpct/mpct2.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct2.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -68,13 +68,13 @@ function MPCT() {
                 <div className="col-lg-4 masonry-item all category-digital">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/mpct/mpct3.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct3.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/mpct/mpct3.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct3.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -85,13 +85,13 @@ function MPCT() {
                 <div className="col-lg-4 masonry-item all category-digital">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/mpct/mpct5.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct5.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/mpct/mpct5.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct5.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -102,13 +102,13 @@ function MPCT() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/mpct/mpct13.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct13.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/mpct/mpct13.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct13.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -119,13 +119,13 @@ function MPCT() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/mpct/mpct6.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct6.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/mpct/mpct6.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct6.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -136,13 +136,13 @@ function MPCT() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/mpct/mpct14.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct14.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/mpct/mpct14.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct14.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -153,13 +153,13 @@ function MPCT() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/mpct/mpct15.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct15.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/mpct/mpct15.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct15.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -170,13 +170,13 @@ function MPCT() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/mpct/mpct16.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct16.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/mpct/mpct16.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct16.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -187,13 +187,13 @@ function MPCT() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/mpct/mpct17.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct17.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/mpct/mpct17.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct17.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -204,13 +204,13 @@ function MPCT() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/mpct/mpct18.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct18.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/mpct/mpct18.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct18.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -221,13 +221,13 @@ function MPCT() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/workshop/mpct/mpct19.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct19.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/workshop/workshop/mpct/mpct19.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/workshop/mpct/mpct19.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />

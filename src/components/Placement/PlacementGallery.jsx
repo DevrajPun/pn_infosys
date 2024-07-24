@@ -4,7 +4,7 @@ function PlacementGallery() {
   return (
     <>
       <div className="main-content">
-        <div className="parallax-banner">
+        <div className="parallax-banner" style={{background:"https://pninfosys.com/placementbanner.jpg"}}>
           <div className="inner-header">
             <br />
             <br />

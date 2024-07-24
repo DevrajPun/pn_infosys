@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Xiaomi_Mi_Company() {
   return (
@@ -9,7 +10,7 @@ function Xiaomi_Mi_Company() {
             <div className="col-lg-12">
               <h1>Xiaomi Mi Company</h1>
               <span>
-                <a href="#">Home</a>
+                <Link to="/">Home</Link>
                 WorkShop
               </span>
             </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ContactUs() {
   return (
@@ -10,7 +11,7 @@ function ContactUs() {
               <div className="col-lg-12">
                 <h1>Say Hello To Us!</h1>
                 <span>
-                  <a href="index.html">Home</a>
+                  <Link to="/">Home</Link>
                   Contact Us
                 </span>
               </div>
@@ -111,6 +112,18 @@ function ContactUs() {
                         />
                       </div>
                       <div className="col-lg-12">
+                        <input
+                          name="phone"
+                          type="text"
+                          formcontrolname="phone"
+                          id="phone"
+                          pattern="[^ @]*@[^ @]*"
+                          placeholder="Phone Number"
+                          required
+                          className="form-control ng-untouched ng-pristine ng-invalid"
+                        />
+                      </div>
+                      <div className="col-lg-12">
                         <textarea
                           name="message"
                           formcontrolname="message"
@@ -143,7 +156,7 @@ function ContactUs() {
                     <h4>More Info</h4>
                   </div>
                   <img
-                    src="assets/frontend/images/colorlogo.png"
+                    src="https://pninfosys.com/assets/frontend/images/colorlogo.png"
                     style={{ width: 239 }}
                   />
                   <div className="row">

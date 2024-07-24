@@ -1,6 +1,70 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function About() {
+  const teamMembers = [
+    {
+      name: "Vikas Jain",
+      role: "Director PNINFOSYS",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvkj.png?alt=media&token=c2e9af3e-25bc-478e-b758-73dd296d67e6",
+    },
+    {
+      name: "Vaibhav Sir",
+      role: "Senior Advisor",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvaibhav.jpg?alt=media&token=71a35861-d268-488b-8699-ac6108881d4c",
+    },
+    {
+      name: "Niket Bansal",
+      role: "Senior Advisor",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fniket.jpg?alt=media&token=4ea14f42-85c3-48ca-9dfa-8c0817bf1563",
+    },
+    {
+      name: "Rishi Jha",
+      role: "General Manager",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Frishi.jpg?alt=media&token=0a7f3772-d8c0-465e-b527-0faea353ed0a",
+    },
+    {
+      name: "Neha Jain",
+      role: "CEO PNINFOSYS",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fceo.png?alt=media&token=4722e889-dc9d-40b4-8734-ac760495b08f",
+    },
+    {
+      name: "Devraj Pun",
+      role: "Full Stack Intern",
+      image: "",
+    },
+    {
+      name: "Muskan Tiwari",
+      role: "Full Stack Intern",
+      image: "",
+    },
+    {
+      name: "Kashish Tiwari",
+      role: "Full Stack Intern",
+      image: "",
+    },
+    {
+      name: "Priyanka Chaturvedi",
+      role: "Full Stack Intern",
+      image: "",
+    },
+    {
+      name: "Rinkesh Jha",
+      role: "Full Stack Intern",
+      image: "",
+    },
+    {
+      name: "Aman Narwariya",
+      role: "Full Stack Intern",
+      image: "",
+    },
+  ];
+
   return (
     <>
       <div className="main-content">
@@ -10,7 +74,7 @@ function About() {
               <div className="col-lg-12">
                 <h1>About Us</h1>
                 <span>
-                  <a href="#">Home</a>
+                  <Link to="/">Home</Link>
                   About Us
                 </span>
               </div>
@@ -139,67 +203,104 @@ function About() {
             </div>
           </div>
         </section>
-        <section className="about-tips">
+        <section
+          className="about-tips"
+          style={{ backgroundColor: "#00aaff", padding: "50px 0" }}
+        >
           <div className="container">
             <div className="row">
               <div className="col-lg-6">
-                <div className="section-heading">
-                  <h6 />
-                  <h2>Who &amp; We are?</h2>
+                <div
+                  className="section-heading"
+                  style={{ marginBottom: "20px" }}
+                >
+                  <h6></h6>
+                  <h2
+                    style={{
+                      color: "white",
+                      fontSize: "36px",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Who &amp; We are?
+                  </h2>
                 </div>
-                <p className="text-justify text-medium">
-                  We are a one-stop destination for all digital solution, be it
-                  website designing,web development, digital marketing, SEO,
+                <p
+                  className="text-justify text-medium"
+                  style={{ color: "white", lineHeight: "1.8" }}
+                >
+                  We are a one-stop destination for all digital solutions, be it
+                  website designing, web development, digital marketing, SEO,
                   mobile apps and full maintenance and compliance services for
-                  Government and Commercial facilities both large and small..
-                  Our elegant group of Developers provide their innovation who
+                  Government and Commercial facilities both large and small. Our
+                  elegant group of Developers provide their innovation who
                   transform your idea into an amazing website Design or Mobile
                   App Development while keeping every custom project unique.
                   <br />
                   <br />
                   We are part of this IT industry since 2018, we not only
-                  developed products and websites but also provides internship
-                  and trainning to students and make them capable to work in
-                  this It software industry, our internship and trainning
-                  program is totally based on hand to hand pratical with live
+                  developed products and websites but also provide internship
+                  and training to students and make them capable to work in this
+                  IT software industry. Our internship and training program is
+                  totally based on hands-on practical experience with live
                   projects.
                   <br />
                   <br />
-                  Our team of IT professionals certified professionals services
-                  Dental Offices, Medical Offices, Restaurants, Bars and all
-                  types of businesses throughout the Lowcountry and the world.
-                  Our team of IT professionals certified professionals services
-                  Hosptials, Colleges, Research Institutes, Schools,
-                  Restaurants, Bars and all types of businesses throughout the
-                  Lowcountry and the world.{" "}
+                  Our team of certified IT professionals services Dental
+                  Offices, Medical Offices, Restaurants, Bars and all types of
+                  businesses throughout the Lowcountry and the world. Our team
+                  of certified IT professionals services Hospitals, Colleges,
+                  Research Institutes, Schools, Restaurants, Bars and all types
+                  of businesses throughout the Lowcountry and the world.
                 </p>
               </div>
               <div className="col-lg-6 align-self-center">
-                <div className="video-thumb">
+                <div
+                  className="video-thumb"
+                  style={{ position: "relative", textAlign: "center" }}
+                >
                   <img
                     src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FWho-%26-We-Are%3F%2Ftemplate.png?alt=media&token=ade88e5d-901f-4037-b97d-d19e3b9c442d"
-                    alt
+                    alt=""
                     className="img-fluid"
+                    style={{ borderRadius: "10px" }}
                   />
                   <img
                     src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FWho-%26-We-Are%3F%2Fplayicon.png?alt=media&token=ebed2050-72f3-4946-a17e-12fe48c775fd"
-                    data-toggle="modal"
-                    data-target="#exampleModalCenter"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModalCenter"
                     className="play-btn"
+                    alt="Play Icon"
+                    style={{
+                      position: "absolute",
+                      top: "50%",
+                      left: "50%",
+                      transform: "translate(-50%, -50%)",
+                      cursor: "pointer",
+                      width: "60px",
+                      height: "60px",
+                    }}
                   />
                 </div>
-                <div id="exampleModalCenter" className="modal fade">
-                  <div className="modal-dialog modal-dialog-centered">
-                    <div data-target="modal-box" className="modal-content">
-                      <div
-                        id="modal-video iframe"
-                        tabIndex={-1}
-                        role="dialog"
-                        aria-labelledby="exampleModalCenter"
-                        aria-hidden="true"
-                        className="modal-body"
-                      >
-                        <img src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FWho-%26-We-Are%3F%2Flearn.jpg?alt=media&token=b95d388f-e1c0-457f-8835-dae0390077b7" />
+                <div
+                  id="exampleModalCenter"
+                  className="modal fade"
+                  tabIndex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalCenterTitle"
+                  aria-hidden="true"
+                >
+                  <div
+                    className="modal-dialog modal-dialog-centered"
+                    role="document"
+                  >
+                    <div className="modal-content">
+                      <div className="modal-body" style={{ padding: "0" }}>
+                        <img
+                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FWho-%26-We-Are%3F%2Flearn.jpg?alt=media&token=b95d388f-e1c0-457f-8835-dae0390077b7"
+                          alt=""
+                          className="img-fluid"
+                        />
                       </div>
                     </div>
                   </div>
@@ -426,385 +527,36 @@ function About() {
                   <h2>Meet Our Team Members</h2>
                 </div>
               </div>
-              <div className="col-lg-3">
-                <div className="team-item">
-                  <div className="team-thumb">
-                    <div className="hover-effect">
-                      <ul>
-                        <li>
-                          <a
-                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvkj.png?alt=media&token=c2e9af3e-25bc-478e-b758-73dd296d67e6"
-                            target="_blank"
-                            className="fancybox-pop fancybox.image"
-                          >
-                            <i className="fa fa-search fa-border fa-2x" />
-                          </a>
-                        </li>
-                      </ul>
+              {teamMembers.map((member, index) => (
+                <div className="col-lg-3" key={index}>
+                  <div className="team-item">
+                    <div className="team-thumb">
+                      <div className="hover-effect">
+                        <ul>
+                          <li>
+                            <a
+                              href={member.image}
+                              target="_blank"
+                              className="fancybox-pop fancybox.image"
+                            >
+                              <i className="fa fa-search fa-border fa-2x" />
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <img src={member.image} alt={member.name} />
                     </div>
-                    <img
-                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvkj.png?alt=media&token=c2e9af3e-25bc-478e-b758-73dd296d67e6"
-                      alt
-                    />
-                  </div>
-                  <div className="down-content">
-                    <h4>Vikas Jain</h4>
-                    <span>Director PNINFOSYS </span>
+                    <div className="down-content">
+                      <h4>{member.name}</h4>
+                      <span>{member.role}</span>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-3">
-                <div className="team-item">
-                  <div className="team-thumb">
-                    <div className="hover-effect">
-                      <ul>
-                        <li>
-                          <a
-                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvaibhav.jpg?alt=media&token=71a35861-d268-488b-8699-ac6108881d4c"
-                            target="_blank"
-                            className="fancybox-pop fancybox.image"
-                          >
-                            <i className="fa fa-search fa-border fa-2x" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <img
-                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvaibhav.jpg?alt=media&token=71a35861-d268-488b-8699-ac6108881d4c"
-                      alt
-                    />
-                  </div>
-                  <div className="down-content">
-                    <h4> Vaibhav Sir</h4>
-                    <span>Senior Advisor</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3">
-                <div className="team-item">
-                  <div className="team-thumb">
-                    <div className="hover-effect">
-                      <ul>
-                        <li>
-                          <a
-                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fniket.jpg?alt=media&token=4ea14f42-85c3-48ca-9dfa-8c0817bf1563"
-                            target="_blank"
-                            className="fancybox-pop fancybox.image"
-                          >
-                            <i className="fa fa-search fa-border fa-2x" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <img
-                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fniket.jpg?alt=media&token=4ea14f42-85c3-48ca-9dfa-8c0817bf1563"
-                      alt
-                    />
-                  </div>
-                  <div className="down-content">
-                    <h4> Niket Bansal</h4>
-                    <span>Senior Advisor</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3">
-                <div className="team-item">
-                  <div className="team-thumb">
-                    <div className="hover-effect">
-                      <ul>
-                        <li>
-                          <a
-                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Frishi.jpg?alt=media&token=0a7f3772-d8c0-465e-b527-0faea353ed0a"
-                            target="_blank"
-                            className="fancybox-pop fancybox.image"
-                          >
-                            <i className="fa fa-search fa-border fa-2x" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <img
-                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Frishi.jpg?alt=media&token=0a7f3772-d8c0-465e-b527-0faea353ed0a"
-                      alt
-                    />
-                  </div>
-                  <div className="down-content">
-                    <h4>Rishi Jha</h4>
-                    <span>General Manager</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3">
-                <div className="team-item">
-                  <div className="team-thumb">
-                    <div className="hover-effect">
-                      <ul>
-                        <li>
-                          <a
-                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fceo.png?alt=media&token=4722e889-dc9d-40b4-8734-ac760495b08f"
-                            target="_blank"
-                            className="fancybox-pop fancybox.image"
-                          >
-                            <i className="fa fa-search fa-border fa-2x" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <img
-                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fceo.png?alt=media&token=4722e889-dc9d-40b4-8734-ac760495b08f"
-                      alt
-                    />
-                  </div>
-                  <div className="down-content">
-                    <h4>
-                      Neha
-                      <br /> Jain
-                    </h4>
-                    <span>CEO PNINFOSYS</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3">
-                <div className="team-item">
-                  <div className="team-thumb">
-                    <div className="hover-effect">
-                      <ul>
-                        <li>
-                          <a
-                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fshivam-min.jpg?alt=media&token=5f4381dc-ab1d-4a5d-8ae7-7da24d0711d3"
-                            target="_blank"
-                            className="fancybox-pop fancybox.image"
-                          >
-                            <i className="fa fa-search fa-border fa-2x" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <img
-                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fshivam-min.jpg?alt=media&token=5f4381dc-ab1d-4a5d-8ae7-7da24d0711d3"
-                      alt
-                    />
-                  </div>
-                  <div className="down-content">
-                    <h4>shivam Shrivastava</h4>
-                    <span>HR/Developer</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3">
-                <div className="team-item">
-                  <div className="team-thumb">
-                    <div className="hover-effect">
-                      <ul>
-                        <li>
-                          <a
-                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fchanchal.jpg?alt=media&token=4f020a95-4d8e-42a3-92d7-6a5c5d79a50c"
-                            target="_blank"
-                            className="fancybox-pop fancybox.image"
-                          >
-                            <i className="fa fa-search fa-border fa-2x" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <img
-                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fchanchal.jpg?alt=media&token=4f020a95-4d8e-42a3-92d7-6a5c5d79a50c"
-                      alt
-                    />
-                  </div>
-                  <div className="down-content">
-                    <h4>
-                      Chanchal
-                      <br /> Sharma
-                    </h4>
-                    <span>Developer</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3">
-                <div className="team-item">
-                  <div className="team-thumb">
-                    <div className="hover-effect">
-                      <ul>
-                        <li>
-                          <a
-                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvishakha.png?alt=media&token=2c53aabf-2341-4d28-a597-3f35d403b46f"
-                            target="_blank"
-                            className="fancybox-pop fancybox.image"
-                          >
-                            <i className="fa fa-search fa-border fa-2x" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <img
-                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvishakha.png?alt=media&token=2c53aabf-2341-4d28-a597-3f35d403b46f"
-                      alt
-                    />
-                  </div>
-                  <div className="down-content">
-                    <h4>
-                      Vishakha
-                      <br /> Saxena
-                    </h4>
-                    <span>Intern</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3">
-                <div className="team-item">
-                  <div className="team-thumb">
-                    <div className="hover-effect">
-                      <ul>
-                        <li>
-                          <a
-                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fyash.png?alt=media&token=3ffa7826-0688-46e8-b94a-6594c08feff6"
-                            target="_blank"
-                            className="fancybox-pop fancybox.image"
-                          >
-                            <i className="fa fa-search fa-border fa-2x" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <img
-                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fyash.png?alt=media&token=3ffa7826-0688-46e8-b94a-6594c08feff6"
-                      alt
-                    />
-                  </div>
-                  <div className="down-content">
-                    <h4>
-                      Yash
-                      <br /> Bhatt
-                    </h4>
-                    <span>Intern</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3">
-                <div className="team-item">
-                  <div className="team-thumb">
-                    <div className="hover-effect">
-                      <ul>
-                        <li>
-                          <a
-                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Faman.jpeg?alt=media&token=1a993fe2-eb2c-43f1-8e47-35db4f170864"
-                            target="_blank"
-                            className="fancybox-pop fancybox.image"
-                          >
-                            <i className="fa fa-search fa-border fa-2x" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <img
-                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Faman.jpeg?alt=media&token=1a993fe2-eb2c-43f1-8e47-35db4f170864"
-                      alt
-                    />
-                  </div>
-                  <div className="down-content">
-                    <h4>
-                      Aman
-                      <br /> Shrivastava
-                    </h4>
-                    <span>Intern</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3">
-                <div className="team-item">
-                  <div className="team-thumb">
-                    <div className="hover-effect">
-                      <ul>
-                        <li>
-                          <a
-                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fkanishka.jpeg?alt=media&token=03bc9233-8066-45a1-8b8a-5725a57393fe"
-                            target="_blank"
-                            className="fancybox-pop fancybox.image"
-                          >
-                            <i className="fa fa-search fa-border fa-2x" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <img
-                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fkanishka.jpeg?alt=media&token=03bc9233-8066-45a1-8b8a-5725a57393fe"
-                      alt
-                    />
-                  </div>
-                  <div className="down-content">
-                    <h4>
-                      Kanishka
-                      <br />
-                      Chaturvedi
-                    </h4>
-                    <span>Intern</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3">
-                <div className="team-item">
-                  <div className="team-thumb">
-                    <div className="hover-effect">
-                      <ul>
-                        <li>
-                          <a
-                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fnidhi.jpeg?alt=media&token=146932cd-7f3c-4f27-b248-bda03d9227f1"
-                            target="_blank"
-                            className="fancybox-pop fancybox.image"
-                          >
-                            <i className="fa fa-search fa-border fa-2x" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <img
-                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fnidhi.jpeg?alt=media&token=146932cd-7f3c-4f27-b248-bda03d9227f1"
-                      alt
-                    />
-                  </div>
-                  <div className="down-content">
-                    <h4>
-                      Nidhi <br />
-                      Khandelwal{" "}
-                    </h4>
-                    <span>Intern</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3">
-                <div className="team-item">
-                  <div className="team-thumb">
-                    <div className="hover-effect">
-                      <ul>
-                        <li>
-                          <a
-                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fshristi.jpeg?alt=media&token=2470093c-9f39-476b-b1e5-18006e7b5466"
-                            target="_blank"
-                            className="fancybox-pop fancybox.image"
-                          >
-                            <i className="fa fa-search fa-border fa-2x" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <img
-                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fshristi.jpeg?alt=media&token=2470093c-9f39-476b-b1e5-18006e7b5466"
-                      alt
-                    />
-                  </div>
-                  <div className="down-content">
-                    <h4>
-                      Shristi Gupta
-                      <br />
-                    </h4>
-                    <span>Intern</span>
-                  </div>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </section>
+
         <div style={{ textAlign: "center" }}>
           <h1> Our Clients </h1>
           <owl-carousel-o _nghost-dqc-c19 ng-reflect-options="[object Object]">

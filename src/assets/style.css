@@ -5049,6 +5049,16 @@ section.footer-content .main-footer .sub-footer p a {
   line-height: 48px;
   text-transform: capitalize;
 }
+.page-heading1{
+  padding: 180px 0px 120px 0px;
+  background-color: #36334c;
+  background-image: url(https://pninfosys.com/assets/frontend/images/unnamed.png),
+    url(https://pninfosys.com/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  text-align: center;
+}
 
 .page-heading {
   padding: 180px 0px 120px 0px;
@@ -5521,7 +5531,7 @@ section {
   text-align: center;
   /* background: linear-gradient(60deg, #9497f3 0%, #5530ce 100%); */
   /* background-image: url(../images/unnamed2.png), url(../images/bannerd3.png); */
-  background-image: url(../images/banner.png);
+  background-image: url(https://pninfosys.com/assets/frontend/images/banner.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -9516,10 +9526,26 @@ section.related-products .section-heading {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 1px 5px;
 }
 .navStyle {
-  padding: 15px 0px;
+  padding: 5px 0px;
   color: black;
   font-weight: 600;
+}
+.dark {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  /* margin-left: 4px;
+  margin-right: 4px; */
+}
+
+.img-size {
+  height: 70px;
+}
+@media (max-width: 768px) {
+  .img-size {
+    height: 50px;
+  }
 }

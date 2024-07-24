@@ -2,8 +2,6 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./assets/font-awesome.min.css";
 import "./assets/style.css";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
 import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
@@ -28,7 +26,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/sevices" element={<OurServices />} />
+        <Route path="/service" element={<OurServices/>}/>
         <Route path="/training" element={<Training />} />
         <Route path="/bentchair" element={<BentChair />} />
         <Route path="/mpct" element={<MPCT />} />

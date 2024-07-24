@@ -1,6 +1,9 @@
 import React from "react";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+import { Link } from "react-router-dom";
 
-function Index() {
+function OurServices() {
   return (
     <>
       <div className="main-content">
@@ -10,13 +13,14 @@ function Index() {
               <div className="col-lg-12">
                 <h1>Our Services</h1>
                 <span>
-                  <a href="#">Home</a>
+                  <Link to="/">Home</Link>
                   Our Services
                 </span>
               </div>
             </div>
           </div>
         </div>
+        <br />
         <section className="features">
           <div className="container">
             <div className="row">
@@ -72,6 +76,8 @@ function Index() {
             </div>
           </div>
         </section>
+        <br />
+        <br />
         <section className="good-tips" style={{ margin: 0 }}>
           <div className="container">
             <div className="row">
@@ -134,4 +140,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default OurServices;

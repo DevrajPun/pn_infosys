@@ -30,13 +30,13 @@ function Aniversary() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/aniversary/a1.jpg"
+                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a1.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/aniversary/a1.jpg"
+                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a1.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -47,13 +47,13 @@ function Aniversary() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/aniversary/a2.png"
+                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a2.png"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/aniversary/a2.png"
+                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a2.png"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -64,13 +64,13 @@ function Aniversary() {
                 <div className="col-lg-4 masonry-item all category-digital">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/aniversary/a3.png"
+                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a1.jpg"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/aniversary/a3.png"
+                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a1.jpg"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -81,13 +81,13 @@ function Aniversary() {
                 <div className="col-lg-4 masonry-item all category-digital">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/aniversary/a4.png"
+                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a4.png"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/aniversary/a4.png"
+                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a4.png"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -98,13 +98,13 @@ function Aniversary() {
                 <div className="col-lg-4 masonry-item all category-analysis">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/aniversary/a5.png"
+                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a5.png"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/aniversary/a5.png"
+                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a5.png"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -115,13 +115,13 @@ function Aniversary() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/aniversary/a6.png"
+                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a6.png"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/aniversary/a6.png"
+                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a6.png"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -132,13 +132,13 @@ function Aniversary() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/aniversary/a7.png"
+                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a7.png"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/aniversary/a7.png"
+                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a7.png"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -149,13 +149,13 @@ function Aniversary() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/aniversary/a8.png"
+                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a8.png"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/aniversary/a8.png"
+                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a8.png"
                           alt
                           style={{ marginTop: 0 }}
                         />
@@ -166,13 +166,13 @@ function Aniversary() {
                 <div className="col-lg-4 masonry-item all category-seo">
                   <div className="case-item">
                     <a
-                      href="assets/frontend/images/event/aniversary/a9.png"
+                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a9.png"
                       target
                       className="zoom"
                     >
                       <div className="case-thumb">
                         <img
-                          src="assets/frontend/images/event/aniversary/a9.png"
+                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a9.png"
                           alt
                           style={{ marginTop: 0 }}
                         />
