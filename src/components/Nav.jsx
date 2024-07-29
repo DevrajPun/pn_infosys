@@ -47,7 +47,7 @@ function Nav() {
             id="navbarNavDropdown"
             ref={collapseRef}
           >
-            <ul className="navbar-nav ml-auto text-center">
+            <ul className="navbar-nav ml-auto text-center text-uppercase">
               <li className="nav-item dark">
                 <Link className="nav-link text-dark" to="/">
                   Home
@@ -176,7 +176,7 @@ function Nav() {
                 <Link
                   target="_blank"
                   to="https://www.pninfosys.in/"
-                  className="nav-link text-dark"
+                  className="btn btn-outline-info nav-link text-dark"
                 >
                   Internship
                 </Link>

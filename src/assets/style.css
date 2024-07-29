@@ -5049,7 +5049,7 @@ section.footer-content .main-footer .sub-footer p a {
   line-height: 48px;
   text-transform: capitalize;
 }
-.page-heading1{
+.page-heading1 {
   padding: 180px 0px 120px 0px;
   background-color: #36334c;
   background-image: url(https://pninfosys.com/assets/frontend/images/unnamed.png),
@@ -9547,5 +9547,93 @@ section.related-products .section-heading {
 @media (max-width: 768px) {
   .img-size {
     height: 50px;
+  }
+}
+
+.parallax-banner1 {
+  position: relative;
+  background: url("https://pninfosys.com/placementbanner.jpg") no-repeat center
+    center fixed;
+  background-size: cover;
+
+  height: 100vh;
+  width: 100%;
+}
+
+.parallax-banner1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+}
+
+/* StudentCard.css */
+
+.student-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 250px; /* Decreased width */
+  height: 350px; /* Decreased height */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+  position: relative; /* Positioning for overlay text */
+}
+
+.student-card .details {
+  position: absolute; /* Absolute positioning for overlay text */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for text readability */
+  color: white; /* White text color */
+  padding: 16px;
+  text-align: center;
+}
+
+.student-card .name {
+  font-size: 1.3em; /* Adjusted font size */
+  margin: 0;
+  color: white; /* White text color */
+}
+
+.student-card .job-title {
+  font-size: 1.1em; /* Adjusted font size */
+  color: white; /* White text color */
+}
+
+.student-card .company {
+  font-size: 0.9em; /* Adjusted font size */
+  color: white; /* White text color */
+}
+
+.student-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .student-card-container {
+    justify-content: space-between;
+  }
+
+  .student-card {
+    flex: 1 1 calc(33.333% - 40px); /* 3 cards per row with margin */
+  }
+}
+
+@media (max-width: 767px) {
+  .student-card {
+    width: calc(100% - 40px); /* Full width with margin on mobile */
   }
 }

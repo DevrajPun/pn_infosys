@@ -1,517 +1,123 @@
 import React from "react";
+import StudentCard from "./StudentCard";
 
 function PlacementGallery() {
+  const students = [
+    {
+      name: "ritik bansal",
+      jobTitle: "Full Stack Developer",
+      company: "expert webtech",
+      image:
+        "https://pninfosys.com/assets/images/placement/placement2019/ritikbansal.png",
+    },
+    {
+      name: "Shivraj dhakad",
+      jobTitle: "Full Stack Developer",
+      company: "First fiddle",
+      image:
+        "https://pninfosys.com/assets/images/placement/placement2019/shivraj.png",
+    },
+    {
+      name: "Vinod Chauhan",
+      jobTitle: "Full Stack Developer",
+      company: "Mile high (DELHI)",
+      image:
+        "https://pninfosys.com/assets/images/placement/placement2018/vinod.jpg",
+    },
+    {
+      name: "Vipin sharma",
+      jobTitle: "Full Stack Developer",
+      company: "capgemini",
+      image:
+        "https://pninfosys.com/assets/images/placement/placement2018/vipinsharma1.jpg",
+    },
+    {
+      name: "Vishal Gaur",
+      jobTitle: "Software engineer",
+      company: "Infosys",
+      image:
+        "https://pninfosys.com/assets/images/placement/placement2018/vishal1.jpg",
+    },
+    {
+      name: "rohit rathore",
+      jobTitle: "Full Stack Developer",
+      company: "Mile High(Delhi)",
+      image:
+        "https://pninfosys.com/assets/images/placement/placement2018/rohit.jpg",
+    },
+    {
+      name: "Akanksha Rajauria",
+      jobTitle: "Full Stack Developer",
+      company: "Apptech",
+      image:
+        "https://pninfosys.com/assets/images/placement/placement2018/akansha1.jpg",
+    },
+    {
+      name: "Akanksha Tomar",
+      jobTitle: "Full Stack Developer",
+      company: "Ignis it solution",
+      image:
+        "https://pninfosys.com/assets/images/placement/placement2019/akanshatomar1.jpg",
+    },
+    {
+      name: "riya parashar",
+      jobTitle: "Full Stack Developer",
+      company: "Airo",
+      image:
+        "https://pninfosys.com/assets/images/placement/placement2019/riyaparashar.png",
+    },
+  ];
   return (
     <>
       <div className="main-content">
-        <div className="parallax-banner" style={{background:"https://pninfosys.com/placementbanner.jpg"}}>
-          <div className="inner-header">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+        <div className="parallax-banner1" style={{ position: "relative" }}>
+          <div
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              backgroundColor: "rgba(0, 0, 0, 0.5)", // Black overlay with 50% opacity
+              zIndex: 1, // Ensure overlay is behind the text
+            }}
+          />
+          <div
+            className="inner-header"
+            style={{
+              position: "relative",
+              zIndex: 2, // Ensure text is above the overlay
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              height: "100%", // Ensure it takes full height for centering
+            }}
+          >
             <div className="inner-content">
-              <h1 style={{ textShadow: "0px 0px 5px #000000" }}>
+              <h1
+                className="text-center"
+                style={{ color: "white", textShadow: "0px 0px 5px #000000" }}
+              >
                 Placement Gallery
               </h1>
-              <div className="main-decoration">
-                <br />
-                <br />
-                <br />
-                <br />
-              </div>
+              <div
+                className="main-decoration"
+                style={{ marginTop: "20px" }}
+              ></div>
             </div>
           </div>
         </div>
-        <div className="container">
-          <br />
-          <br />
-          <div row>
-            <div className="col-lg-4">
-              <div className="section-heading">
-                <h2> Placement Gallery</h2>
-                <h6>List of our placed students</h6>
-              </div>
-            </div>
-            <div className="col-lg-8" />
-            <div className="row">
-              <div className="courses-box3 col-sm-12 col-lg-6 col-md-6">
-                <div className="single-item-wrapper category-digital">
-                  <div className="courses-img-wrapper hvr-bounce-to-right">
-                    <img
-                      src="assets/images/placement/placement2019/ritikbansal.png"
-                      alt="placement gallery"
-                      className="img-responsive center-block img-fluid"
-                    />
-                  </div>
-                  <div className="courses-content-wrapper">
-                    <div className="table-responsive">
-                      <table className="table table-bordered table-responsive text-center text-uppercase text-bold">
-                        <thead>
-                          <tr>
-                            <th>NAME</th>
-                            <td>ritik bansal</td>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th>COMPANY NAME </th>
-                            <td>expert webtech</td>
-                          </tr>
-                          <tr>
-                            <th>DESIGNATION </th>
-                            <td>Full Stack Developer</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="courses-box3 col-sm-12 col-lg-6 col-md-6">
-                <div className="single-item-wrapper category-digital">
-                  <div className="courses-img-wrapper hvr-bounce-to-right">
-                    <img
-                      src="assets/images/placement/placement2019/shivraj.png"
-                      alt="placement gallery"
-                      className="img-responsive img-fluid center-block"
-                    />
-                  </div>
-                  <div className="courses-content-wrapper">
-                    <div className="table-responsive">
-                      <table className="table table-bordered table-responsive text-center text-uppercase text-bold">
-                        <thead>
-                          <tr>
-                            <th>NAME</th>
-                            <td>Shivraj dhakad</td>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th>COMPANY NAME </th>
-                            <td>First fiddle</td>
-                          </tr>
-                          <tr>
-                            <th>DESIGNATION </th>
-                            <td>Full Stack Developer</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="courses-box3 col-sm-12 col-lg-6 col-md-6">
-                <div className="single-item-wrapper category-digital">
-                  <div className="courses-img-wrapper hvr-bounce-to-right">
-                    <img
-                      src="assets/images/placement/placement2019/nishapraveen1.png"
-                      alt="placement gallery"
-                      className="img-responsive img-fluid center-block"
-                    />
-                  </div>
-                  <div className="courses-content-wrapper">
-                    <div className="table-responsive">
-                      <table className="table table-bordered table-responsive text-center text-uppercase text-bold">
-                        <thead>
-                          <tr>
-                            <th>NAME</th>
-                            <td>nisha praveen</td>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th>COMPANY NAME </th>
-                            <td>ITS</td>
-                          </tr>
-                          <tr>
-                            <th>DESIGNATION </th>
-                            <td>Full Stack Developer</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="courses-box3 col-sm-12 col-lg-6 col-md-6">
-                <div className="single-item-wrapper category-digital">
-                  <div className="courses-img-wrapper hvr-bounce-to-right">
-                    <img
-                      src="assets/images/placement/placement2019/riyaparashar.png"
-                      alt="placement gallery"
-                      className="img-responsive center-block img-fluid"
-                    />
-                  </div>
-                  <div className="courses-content-wrapper">
-                    <div className="table-responsive">
-                      <table className="table table-bordered table-responsive text-center text-uppercase text-bold">
-                        <thead>
-                          <tr>
-                            <th>NAME</th>
-                            <td>riya parashar</td>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th>COMPANY NAME </th>
-                            <td>Airo</td>
-                          </tr>
-                          <tr>
-                            <th>DESIGNATION </th>
-                            <td>Full Stack Developer</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="courses-box3 col-sm-12 col-lg-6 col-md-6">
-                <div className="single-item-wrapper category-digital">
-                  <div className="courses-img-wrapper hvr-bounce-to-right">
-                    <img
-                      src="assets/images/placement/placement2019/himanshukuswah.png"
-                      alt="placement gallery"
-                      className="img-responsive img-fluid center-block"
-                    />
-                  </div>
-                  <div className="courses-content-wrapper">
-                    <div className="table-responsive">
-                      <table className="table table-bordered table-responsive text-center text-uppercase text-bold">
-                        <thead>
-                          <tr>
-                            <th>NAME</th>
-                            <td>himanshu kuswah</td>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th>COMPANY NAME </th>
-                            <td>Expert Webtech</td>
-                          </tr>
-                          <tr>
-                            <th>DESIGNATION </th>
-                            <td>Full Stack Developer</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="courses-box3 col-sm-12 col-lg-6 col-md-6">
-                <div className="single-item-wrapper category-digital">
-                  <div className="courses-img-wrapper hvr-bounce-to-right">
-                    <img
-                      src="assets/images/placement/placement2019/manoj.png"
-                      alt="placement gallery"
-                      className="img-responsive img-fluid center-block"
-                    />
-                  </div>
-                  <div className="courses-content-wrapper">
-                    <div className="table-responsive">
-                      <table className="table table-bordered table-responsive text-center text-uppercase text-bold">
-                        <thead>
-                          <tr>
-                            <th>NAME</th>
-                            <td>Manoj</td>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th>COMPANY NAME </th>
-                            <td>Mile high</td>
-                          </tr>
-                          <tr>
-                            <th>DESIGNATION </th>
-                            <td>Full Stack Developer</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="courses-box3 col-sm-12 col-lg-6 col-md-6">
-                <div className="single-item-wrapper category-digital">
-                  <div className="courses-img-wrapper hvr-bounce-to-right">
-                    <img
-                      src="assets/images/placement/placement2019/Deependra Singh Bhadoriya.png"
-                      alt="placement gallery"
-                      className="img-responsive img-fluid center-block"
-                    />
-                  </div>
-                  <div className="courses-content-wrapper">
-                    <div className="table-responsive">
-                      <table className="table table-bordered table-responsive text-center text-uppercase text-bold">
-                        <thead>
-                          <tr>
-                            <th>NAME</th>
-                            <td>Deependra Singh Bhadoriya</td>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th>COMPANY NAME </th>
-                            <td>java R&amp;D Pvt.Ltd</td>
-                          </tr>
-                          <tr>
-                            <th>DESIGNATION </th>
-                            <td>Full Stack Developer</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="courses-box3 col-sm-12 col-lg-6 col-md-6">
-                <div className="single-item-wrapper category-digital">
-                  <div className="courses-img-wrapper hvr-bounce-to-right">
-                    <img
-                      src="assets/images/placement/placement2019/akanshatomar1.jpg"
-                      alt="placement gallery"
-                      className="img-responsive img-fluid center-block"
-                    />
-                  </div>
-                  <div className="courses-content-wrapper">
-                    <div className="table-responsive">
-                      <table className="table table-bordered table-responsive text-center text-uppercase text-bold">
-                        <thead>
-                          <tr>
-                            <th>NAME</th>
-                            <td>Akanksha Tomar</td>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th>COMPANY NAME </th>
-                            <td>Ignis it solution</td>
-                          </tr>
-                          <tr>
-                            <th>DESIGNATION </th>
-                            <td>Full Stack Developer</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="courses-box3 col-sm-12 col-lg-6 col-md-6">
-                <div className="single-item-wrapper category-analysis">
-                  <div className="courses-img-wrapper hvr-bounce-to-right">
-                    <img
-                      src="assets/images/placement/placement2018/akansha1.jpg"
-                      alt="placement gallery"
-                      className="img-responsive img-fluid center-block"
-                    />
-                  </div>
-                  <div className="courses-content-wrapper">
-                    <div className="table-responsive">
-                      <table className="table table-bordered table-responsive text-center text-uppercase text-bold">
-                        <thead>
-                          <tr>
-                            <th>NAME</th>
-                            <td>Akanksha Rajauria</td>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th>COMPANY NAME </th>
-                            <td>Apptech</td>
-                          </tr>
-                          <tr>
-                            <th>DESIGNATION </th>
-                            <td>Full Stack Developer</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="courses-box3 col-sm-12 col-lg-6 col-md-6">
-                <div className="single-item-wrapper category-analysis">
-                  <div className="courses-img-wrapper hvr-bounce-to-right">
-                    <img
-                      src="assets/images/placement/placement2018/alok1.jpg"
-                      alt="placement gallery"
-                      className="img-responsive img-fluid center-block"
-                    />
-                  </div>
-                  <div className="courses-content-wrapper">
-                    <div className="table-responsive">
-                      <table className="table table-bordered table-responsive table-responsive text-center text-uppercase text-bold">
-                        <thead>
-                          <tr>
-                            <th>NAME</th>
-                            <td>Alok Sharma</td>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th>COMPANY NAME </th>
-                            <td>Apptech</td>
-                          </tr>
-                          <tr>
-                            <th>DESIGNATION </th>
-                            <td>Full Stack Developer </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="courses-box3 col-sm-12 col-lg-6 col-md-6">
-                <div className="single-item-wrapper category-analysis">
-                  <div className="courses-img-wrapper hvr-bounce-to-right">
-                    <img
-                      src="assets/images/placement/placement2018/rohit.jpg"
-                      alt="placement gallery"
-                      className="img-responsive img-fluid center-block"
-                    />
-                  </div>
-                  <div className="courses-content-wrapper">
-                    <div className="table-responsive">
-                      <table className="table table-bordered table-responsive text-center text-uppercase text-bold">
-                        <thead>
-                          <tr>
-                            <th>NAME</th>
-                            <td>rohit rathore</td>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th>COMPANY NAME </th>
-                            <td>Mile High(Delhi)</td>
-                          </tr>
-                          <tr>
-                            <th>DESIGNATION </th>
-                            <td>Full Stack Developer</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="courses-box3 col-sm-12 col-lg-6 col-md-6">
-                <div className="single-item-wrapper category-analysis">
-                  <div className="courses-img-wrapper hvr-bounce-to-right">
-                    <img
-                      src="assets/images/placement/placement2018/vinod.jpg"
-                      alt="placement gallery"
-                      className="img-responsive img-fluid center-block"
-                    />
-                  </div>
-                  <div className="courses-content-wrapper">
-                    <div className="table-responsive">
-                      <table className="table table-bordered table-responsive text-center text-uppercase text-bold">
-                        <thead>
-                          <tr>
-                            <th>NAME</th>
-                            <td>Vinod Chauhan</td>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th>COMPANY NAME </th>
-                            <td>Mile high (DELHI)</td>
-                          </tr>
-                          <tr>
-                            <th>DESIGNATION </th>
-                            <td>Full Stack Developer</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="courses-box3 col-sm-12 col-lg-6 col-md-6">
-                <div className="single-item-wrapper category-analysis">
-                  <div className="courses-img-wrapper hvr-bounce-to-right">
-                    <img
-                      src="assets/images/placement/placement2018/vipinsharma1.jpg"
-                      alt="placement gallery"
-                      className="img-responsive img-fluid center-block"
-                    />
-                  </div>
-                  <div className="courses-content-wrapper">
-                    <div className="table-responsive">
-                      <table className="table table-bordered table-responsive text-center text-uppercase text-bold">
-                        <thead>
-                          <tr>
-                            <th>NAME</th>
-                            <td>Vipin sharma</td>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th>COMPANY NAME </th>
-                            <td>capgemini</td>
-                          </tr>
-                          <tr>
-                            <th>DESIGNATION </th>
-                            <td>Full Stack Developer</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="courses-box3 col-sm-12 col-lg-6 col-md-6">
-                <div className="single-item-wrapper category-analysis">
-                  <div className="courses-img-wrapper hvr-bounce-to-right">
-                    <img
-                      src="assets/images/placement/placement2018/vishal1.jpg"
-                      alt="placement gallery"
-                      className="img-responsive img-fluid center-block"
-                    />
-                  </div>
-                  <div className="courses-content-wrapper">
-                    <div className="table-responsive">
-                      <table className="table table-bordered table-responsive text-center text-uppercase text-bold">
-                        <thead>
-                          <tr>
-                            <th>NAME</th>
-                            <td>Vishal Gaur</td>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th>COMPANY NAME </th>
-                            <td>Infosys</td>
-                          </tr>
-                          <tr>
-                            <th>DESIGNATION </th>
-                            <td>Software engineer</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+        <div>
+          <h2 className="text-center my-4">Students Who Got Placed</h2>
+          <div
+            className="justify-content-center"
+            style={{ display: "flex", flexWrap: "wrap" }}
+          >
+            {students.map((student, index) => (
+              <StudentCard key={index} student={student} />
+            ))}
           </div>
         </div>
       </div>

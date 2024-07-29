@@ -1,70 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import devraj from "../../assets/images/devraj.jpg";
+
+// import muskan from '../../assets/images/muskan.jpg'
+// import kashish from '../../assets/images/kashish.jpg'
+// import priyanka from '../../assets/images/priyanka.jpg'
+// import rinkesh from '../../assets/images/rinkesh.jpg'
+// import aman from '../../assets/images/aman.jpg'
 
 function About() {
-  const teamMembers = [
-    {
-      name: "Vikas Jain",
-      role: "Director PNINFOSYS",
-      image:
-        "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvkj.png?alt=media&token=c2e9af3e-25bc-478e-b758-73dd296d67e6",
-    },
-    {
-      name: "Vaibhav Sir",
-      role: "Senior Advisor",
-      image:
-        "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvaibhav.jpg?alt=media&token=71a35861-d268-488b-8699-ac6108881d4c",
-    },
-    {
-      name: "Niket Bansal",
-      role: "Senior Advisor",
-      image:
-        "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fniket.jpg?alt=media&token=4ea14f42-85c3-48ca-9dfa-8c0817bf1563",
-    },
-    {
-      name: "Rishi Jha",
-      role: "General Manager",
-      image:
-        "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Frishi.jpg?alt=media&token=0a7f3772-d8c0-465e-b527-0faea353ed0a",
-    },
-    {
-      name: "Neha Jain",
-      role: "CEO PNINFOSYS",
-      image:
-        "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fceo.png?alt=media&token=4722e889-dc9d-40b4-8734-ac760495b08f",
-    },
-    {
-      name: "Devraj Pun",
-      role: "Full Stack Intern",
-      image: "",
-    },
-    {
-      name: "Muskan Tiwari",
-      role: "Full Stack Intern",
-      image: "",
-    },
-    {
-      name: "Kashish Tiwari",
-      role: "Full Stack Intern",
-      image: "",
-    },
-    {
-      name: "Priyanka Chaturvedi",
-      role: "Full Stack Intern",
-      image: "",
-    },
-    {
-      name: "Rinkesh Jha",
-      role: "Full Stack Intern",
-      image: "",
-    },
-    {
-      name: "Aman Narwariya",
-      role: "Full Stack Intern",
-      image: "",
-    },
-  ];
-
   return (
     <>
       <div className="main-content">
@@ -527,262 +471,307 @@ function About() {
                   <h2>Meet Our Team Members</h2>
                 </div>
               </div>
-              {teamMembers.map((member, index) => (
-                <div className="col-lg-3" key={index}>
-                  <div className="team-item">
-                    <div className="team-thumb">
-                      <div className="hover-effect">
-                        <ul>
-                          <li>
-                            <a
-                              href={member.image}
-                              target="_blank"
-                              className="fancybox-pop fancybox.image"
-                            >
-                              <i className="fa fa-search fa-border fa-2x" />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                      <img src={member.image} alt={member.name} />
+              <div className="col-lg-3">
+                <div className="team-item">
+                  <div className="team-thumb">
+                    <div className="hover-effect">
+                      <ul>
+                        <li>
+                          <a
+                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvkj.png?alt=media&token=c2e9af3e-25bc-478e-b758-73dd296d67e6"
+                            target="_blank"
+                            className="fancybox-pop fancybox.image"
+                          >
+                            <i className="fa fa-search fa-border fa-2x" />
+                          </a>
+                        </li>
+                      </ul>
                     </div>
-                    <div className="down-content">
-                      <h4>{member.name}</h4>
-                      <span>{member.role}</span>
-                    </div>
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvkj.png?alt=media&token=c2e9af3e-25bc-478e-b758-73dd296d67e6"
+                      alt
+                    />
+                  </div>
+                  <div className="down-content">
+                    <h4>Vikas Jain</h4>
+                    <span>Director PNINFOSYS </span>
                   </div>
                 </div>
-              ))}
+              </div>
+              <div className="col-lg-3">
+                <div className="team-item">
+                  <div className="team-thumb">
+                    <div className="hover-effect">
+                      <ul>
+                        <li>
+                          <a
+                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvaibhav.jpg?alt=media&token=71a35861-d268-488b-8699-ac6108881d4c"
+                            target="_blank"
+                            className="fancybox-pop fancybox.image"
+                          >
+                            <i className="fa fa-search fa-border fa-2x" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvaibhav.jpg?alt=media&token=71a35861-d268-488b-8699-ac6108881d4c"
+                      alt
+                    />
+                  </div>
+                  <div className="down-content">
+                    <h4> Vaibhav Sir</h4>
+                    <span>Senior Advisor</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3">
+                <div className="team-item">
+                  <div className="team-thumb">
+                    <div className="hover-effect">
+                      <ul>
+                        <li>
+                          <a
+                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fniket.jpg?alt=media&token=4ea14f42-85c3-48ca-9dfa-8c0817bf1563"
+                            target="_blank"
+                            className="fancybox-pop fancybox.image"
+                          >
+                            <i className="fa fa-search fa-border fa-2x" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fniket.jpg?alt=media&token=4ea14f42-85c3-48ca-9dfa-8c0817bf1563"
+                      alt
+                    />
+                  </div>
+                  <div className="down-content">
+                    <h4> Niket Bansal</h4>
+                    <span>Senior Advisor</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3">
+                <div className="team-item">
+                  <div className="team-thumb">
+                    <div className="hover-effect">
+                      <ul>
+                        <li>
+                          <a
+                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Frishi.jpg?alt=media&token=0a7f3772-d8c0-465e-b527-0faea353ed0a"
+                            target="_blank"
+                            className="fancybox-pop fancybox.image"
+                          >
+                            <i className="fa fa-search fa-border fa-2x" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Frishi.jpg?alt=media&token=0a7f3772-d8c0-465e-b527-0faea353ed0a"
+                      alt
+                    />
+                  </div>
+                  <div className="down-content">
+                    <h4>Rishi Jha</h4>
+                    <span>General Manager</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3">
+                <div className="team-item">
+                  <div className="team-thumb">
+                    <div className="hover-effect">
+                      <ul>
+                        <li>
+                          <a
+                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fceo.png?alt=media&token=4722e889-dc9d-40b4-8734-ac760495b08f"
+                            target="_blank"
+                            className="fancybox-pop fancybox.image"
+                          >
+                            <i className="fa fa-search fa-border fa-2x" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fceo.png?alt=media&token=4722e889-dc9d-40b4-8734-ac760495b08f"
+                      alt
+                    />
+                  </div>
+                  <div className="down-content">
+                    <h4>
+                      Neha
+                      <br /> Jain
+                    </h4>
+                    <span>CEO PNINFOSYS</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3">
+                <div className="team-item">
+                  <div className="team-thumb">
+                    <div className="hover-effect">
+                      <ul>
+                        <li>
+                          <a
+                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fshivam-min.jpg?alt=media&token=5f4381dc-ab1d-4a5d-8ae7-7da24d0711d3"
+                            target="_blank"
+                            className="fancybox-pop fancybox.image"
+                          >
+                            <i className="fa fa-search fa-border fa-2x" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <img style={{ height: "205px" }} src={devraj} alt />
+                  </div>
+                  <div className="down-content">
+                    <h4>Devraj Pun</h4>
+                    <span>Full Stack Intern</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3">
+                <div className="team-item">
+                  <div className="team-thumb">
+                    <div className="hover-effect">
+                      <ul>
+                        <li>
+                          <a
+                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fchanchal.jpg?alt=media&token=4f020a95-4d8e-42a3-92d7-6a5c5d79a50c"
+                            target="_blank"
+                            className="fancybox-pop fancybox.image"
+                          >
+                            <i className="fa fa-search fa-border fa-2x" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <img
+                      // src={muskan}
+                      alt
+                    />
+                  </div>
+                  <div className="down-content">
+                    <h4>Muskan Tiwari</h4>
+                    <span>Full Stack Intern</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3">
+                <div className="team-item">
+                  <div className="team-thumb">
+                    <div className="hover-effect">
+                      <ul>
+                        <li>
+                          <a
+                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fvishakha.png?alt=media&token=2c53aabf-2341-4d28-a597-3f35d403b46f"
+                            target="_blank"
+                            className="fancybox-pop fancybox.image"
+                          >
+                            <i className="fa fa-search fa-border fa-2x" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <img
+                      // src={kashish}
+                      alt
+                    />
+                  </div>
+                  <div className="down-content">
+                    <h4>Kashish Tiwari</h4>
+                    <span>Full Stack Intern</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3">
+                <div className="team-item">
+                  <div className="team-thumb">
+                    <div className="hover-effect">
+                      <ul>
+                        <li>
+                          <a
+                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fyash.png?alt=media&token=3ffa7826-0688-46e8-b94a-6594c08feff6"
+                            target="_blank"
+                            className="fancybox-pop fancybox.image"
+                          >
+                            <i className="fa fa-search fa-border fa-2x" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <img
+                      // src={priyanka}
+                      alt
+                    />
+                  </div>
+                  <div className="down-content">
+                    <h4>Priyanka Chaturvedi</h4>
+                    <span>Full Stack Intern</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3">
+                <div className="team-item">
+                  <div className="team-thumb">
+                    <div className="hover-effect">
+                      <ul>
+                        <li>
+                          <a
+                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Faman.jpeg?alt=media&token=1a993fe2-eb2c-43f1-8e47-35db4f170864"
+                            target="_blank"
+                            className="fancybox-pop fancybox.image"
+                          >
+                            <i className="fa fa-search fa-border fa-2x" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <img
+                      // src={rinkesh}
+                      alt
+                    />
+                  </div>
+                  <div className="down-content">
+                    <h4>Rinkesh Jha</h4>
+                    <span>Full Stack Intern</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3">
+                <div className="team-item">
+                  <div className="team-thumb">
+                    <div className="hover-effect">
+                      <ul>
+                        <li>
+                          <a
+                            href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2FOur-Team%2Fkanishka.jpeg?alt=media&token=03bc9233-8066-45a1-8b8a-5725a57393fe"
+                            target="_blank"
+                            className="fancybox-pop fancybox.image"
+                          >
+                            <i className="fa fa-search fa-border fa-2x" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <img
+                      // src={aman}
+                      alt
+                    />
+                  </div>
+                  <div className="down-content">
+                    <h4>Aman Narwariya</h4>
+                    <span>Full Stack Intern</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
-
-        <div style={{ textAlign: "center" }}>
-          <h1> Our Clients </h1>
-          <owl-carousel-o _nghost-dqc-c19 ng-reflect-options="[object Object]">
-            <div
-              _ngcontent-dqc-c19
-              className="owl-carousel owl-theme owl-loaded owl-responsive"
-              ng-reflect-ng-class="[object Object]"
-            >
-              <div
-                _ngcontent-dqc-c19
-                className="owl-stage-outer ng-star-inserted"
-              >
-                <owl-stage
-                  _ngcontent-dqc-c19
-                  className="ng-tns-c20-0"
-                  ng-reflect-owl-draggable="[object Object]"
-                  ng-reflect-stage-data="[object Object]"
-                  ng-reflect-slides-data="[object Object],[object Object"
-                >
-                  <div className="ng-tns-c20-0">
-                    <div
-                      className="owl-stage ng-tns-c20-0"
-                      ng-reflect-ng-style="[object Object]"
-                      style={{
-                        width: 4105,
-                        transform: "translate3d(-2210px, 0px, 0px)",
-                        transition: "all 0.25s ease 0s",
-                      }}
-                    >
-                      <div
-                        className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted cloned"
-                        ng-reflect-ng-class="[object Object]"
-                        ng-reflect-ng-style="[object Object]"
-                        style={{ width: "315.75px" }}
-                      >
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2FIDTR.png?alt=media&token=7b350447-b83c-44fa-af67-3ed92c981457"
-                          className="ng-star-inserted"
-                          style={{}}
-                        />
-                      </div>
-
-                      <div
-                        className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted cloned"
-                        ng-reflect-ng-class="[object Object]"
-                        ng-reflect-ng-style="[object Object]"
-                        style={{ width: "315.75px" }}
-                      >
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Ftemple.jpg?alt=media&token=579af0a8-dd0d-4b73-ad5c-a41e4e6c8e91"
-                          className="ng-star-inserted"
-                          style={{}}
-                        />
-                      </div>
-
-                      <div
-                        className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted cloned"
-                        ng-reflect-ng-class="[object Object]"
-                        ng-reflect-ng-style="[object Object]"
-                        style={{ width: "315.75px" }}
-                      >
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Frjn.jpg?alt=media&token=2f1b02c6-442a-4461-888c-300041b961bf"
-                          className="ng-star-inserted"
-                          style={{}}
-                        />
-                      </div>
-
-                      <div
-                        className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted cloned"
-                        ng-reflect-ng-class="[object Object]"
-                        ng-reflect-ng-style="[object Object]"
-                        style={{ width: "315.75px" }}
-                      >
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Frjnpic.jpg?alt=media&token=f4a7b2f8-35db-460c-8305-f0cd8d165d40"
-                          className="ng-star-inserted"
-                          style={{}}
-                        />
-                      </div>
-
-                      <div
-                        className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted"
-                        ng-reflect-ng-class="[object Object]"
-                        ng-reflect-ng-style="[object Object]"
-                        style={{ width: "315.75px" }}
-                      >
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Fvee.jpg?alt=media&token=617847a8-22a9-4ee7-b454-c067669efe4f"
-                          className="ng-star-inserted"
-                          style={{}}
-                        />
-                      </div>
-
-                      <div
-                        className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted"
-                        ng-reflect-ng-class="[object Object]"
-                        ng-reflect-ng-style="[object Object]"
-                        style={{ width: "315.75px" }}
-                      >
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2FIDTR.png?alt=media&token=7b350447-b83c-44fa-af67-3ed92c981457"
-                          className="ng-star-inserted"
-                          style={{}}
-                        />
-                      </div>
-
-                      <div
-                        className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted"
-                        ng-reflect-ng-class="[object Object]"
-                        ng-reflect-ng-style="[object Object]"
-                        style={{ width: "315.75px" }}
-                      >
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Ftemple.jpg?alt=media&token=579af0a8-dd0d-4b73-ad5c-a41e4e6c8e91"
-                          className="ng-star-inserted"
-                          style={{}}
-                        />
-                      </div>
-
-                      <div
-                        className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted active"
-                        ng-reflect-ng-class="[object Object]"
-                        ng-reflect-ng-style="[object Object]"
-                        style={{ width: "315.75px" }}
-                      >
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Frjn.jpg?alt=media&token=2f1b02c6-442a-4461-888c-300041b961bf"
-                          className="ng-star-inserted"
-                          style={{}}
-                        />
-                      </div>
-
-                      <div
-                        className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted active"
-                        ng-reflect-ng-class="[object Object]"
-                        ng-reflect-ng-style="[object Object]"
-                        style={{ width: "315.75px" }}
-                      >
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Frjnpic.jpg?alt=media&token=f4a7b2f8-35db-460c-8305-f0cd8d165d40"
-                          className="ng-star-inserted"
-                          style={{}}
-                        />
-                      </div>
-
-                      <div
-                        className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted active cloned"
-                        ng-reflect-ng-class="[object Object]"
-                        ng-reflect-ng-style="[object Object]"
-                        style={{ width: "315.75px" }}
-                      >
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Fvee.jpg?alt=media&token=617847a8-22a9-4ee7-b454-c067669efe4f"
-                          className="ng-star-inserted"
-                          style={{}}
-                        />
-                      </div>
-
-                      <div
-                        className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted active cloned"
-                        ng-reflect-ng-class="[object Object]"
-                        ng-reflect-ng-style="[object Object]"
-                        style={{ width: "315.75px" }}
-                      >
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2FIDTR.png?alt=media&token=7b350447-b83c-44fa-af67-3ed92c981457"
-                          className="ng-star-inserted"
-                          style={{}}
-                        />
-                      </div>
-
-                      <div
-                        className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted cloned"
-                        ng-reflect-ng-class="[object Object]"
-                        ng-reflect-ng-style="[object Object]"
-                        style={{ width: "315.75px" }}
-                      >
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Ftemple.jpg?alt=media&token=579af0a8-dd0d-4b73-ad5c-a41e4e6c8e91"
-                          className="ng-star-inserted"
-                          style={{}}
-                        />
-                      </div>
-
-                      <div
-                        className="owl-item ng-tns-c20-0 ng-trigger ng-trigger-autoHeight ng-star-inserted cloned"
-                        ng-reflect-ng-class="[object Object]"
-                        ng-reflect-ng-style="[object Object]"
-                        style={{ width: "315.75px" }}
-                      >
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/about%2Frowslider%2Frjn.jpg?alt=media&token=2f1b02c6-442a-4461-888c-300041b961bf"
-                          className="ng-star-inserted"
-                          style={{}}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </owl-stage>
-              </div>
-
-              <div
-                _ngcontent-dqc-c19
-                className="owl-nav ng-star-inserted"
-                ng-reflect-ng-class="[object Object]"
-              >
-                <div
-                  _ngcontent-dqc-c19
-                  className="owl-prev"
-                  ng-reflect-ng-class="[object Object]"
-                />
-                <div
-                  _ngcontent-dqc-c19
-                  className="owl-next"
-                  ng-reflect-ng-class="[object Object]"
-                />
-              </div>
-              <div
-                _ngcontent-dqc-c19
-                className="owl-dots disabled ng-star-inserted"
-                ng-reflect-ng-class="[object Object]"
-              ></div>
-            </div>
-          </owl-carousel-o>
-        </div>
+    
       </div>
     </>
   );
